@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout/Layout';
 import DashboardPage from './pages/DashboardPage';
 import SchedulePage from './pages/SchedulePage';
@@ -8,7 +8,7 @@ import EmergencyPage from './pages/EmergencyPage';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<DashboardPage />} />
@@ -18,6 +18,6 @@ export default function App() {
           <Route path="/emergency" element={<EmergencyPage />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }

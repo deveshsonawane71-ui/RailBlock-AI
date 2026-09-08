@@ -2,6 +2,7 @@
   "name": "railblock-ai",
   "private": true,
   "version": "1.0.0",
+  "homepage": "https://deveshsonawane71-ui.github.io/RailBlock-AI",
   "type": "module",
   "description": "AI-Powered Block Planning Dashboard for Indian Railways",
   "scripts": {

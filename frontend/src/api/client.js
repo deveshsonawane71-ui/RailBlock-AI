@@ -2,10 +2,16 @@
  * API Client — Centralized fetch wrapper for backend communication.
  */
 
-const API_BASE = '/api';
+const RAW_BASE = import.meta.env.VITE_API_BASE_URL;
+// In production, fallback to the deployed Render backend URL if not set
+const BACKEND_HOST = RAW_BASE 
+  ? RAW_BASE.replace(/\/$/, '') 
+  : (import.meta.env.DEV ? '' : 'https://railblock-ai.onrender.com');
+const API_BASE = BACKEND_HOST ? `${BACKEND_HOST}/api` : '/api';
 
 async function request(endpoint, options = {}) {
   const url = `${API_BASE}${endpoint}`;
+
   const config = {
     headers: { 'Content-Type': 'application/json' },
     ...options,

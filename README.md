@@ -6,6 +6,18 @@
 
 ---
 
+## 🌐 Live Deployments
+
+| Component | Status | Live Public URL |
+|---|---|---|
+| **Frontend Web App** | [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)](https://deveshsonawane71-ui.github.io/RailBlock-AI/) | 👉 **[https://deveshsonawane71-ui.github.io/RailBlock-AI/](https://deveshsonawane71-ui.github.io/RailBlock-AI/)** |
+| **Backend REST API** | [![Render](https://img.shields.io/badge/Render-Backend%20API-blue)](https://railblock-ai-backend.onrender.com) | 👉 **[https://railblock-ai-backend.onrender.com](https://railblock-ai-backend.onrender.com)** |
+| **Interactive API Docs** | [![Swagger](https://img.shields.io/badge/Swagger-Docs-orange)](https://railblock-ai-backend.onrender.com/docs) | 👉 **[https://railblock-ai-backend.onrender.com/docs](https://railblock-ai-backend.onrender.com/docs)** |
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/deveshsonawane71-ui/RailBlock-AI)
+
+---
+
 ## Overview
 
 RailBlock AI is an intelligent block scheduling system that uses **Google OR-Tools CP-SAT constraint programming** to optimize maintenance block schedules across Indian Railway corridors. It replaces manual, siloed planning with AI-driven optimization that:
@@ -136,7 +148,19 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:5173 in your browser.
+### Cloud Deployment (Production)
+
+#### 1. Frontend on GitHub Pages (Automated CI/CD)
+The repository includes an automated GitHub Actions workflow (`.github/workflows/deploy-pages.yml`):
+1. In your GitHub repository, go to **Settings** → **Pages**.
+2. Under **Build and deployment** → **Source**, select **`GitHub Actions`**.
+3. Push to `main` (or trigger the workflow under the Actions tab).
+4. Your live app will be published at: **`https://deveshsonawane71-ui.github.io/RailBlock-AI/`**
+
+#### 2. Backend on Render / Railway / Docker
+- **Render**: Click the **Deploy to Render** button above or connect your GitHub repository on [render.com](https://render.com). Render automatically detects `render.yaml` and deploys the FastAPI backend for free!
+- **Railway**: Connect your repository on [railway.app](https://railway.app), which automatically uses `railway.json` / `Procfile`.
+- **Docker**: Run `docker build -t railblock-backend . && docker run -p 8000:8000 railblock-backend`.
 
 ### Quick Start Demo
 
