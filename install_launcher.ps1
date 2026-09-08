@@ -34,7 +34,15 @@ try {
         $tunnelShortcut.Description = "Launch RailBlock AI with Public Shareable HTTPS URL"
         $tunnelShortcut.IconLocation = "$env:SystemRoot\System32\shell32.dll,14"
         $tunnelShortcut.Save()
-        Write-Host "[+] Created Public Link Desktop Shortcut at: $tunnelShortcutPath" -ForegroundColor Green
+        $pushShortcutPath = Join-Path $desktop "Push to GitHub.lnk"
+        $pushBat = Join-Path $projectDir "push_to_github.bat"
+        $pushShortcut = $wshShell.CreateShortcut($pushShortcutPath)
+        $pushShortcut.TargetPath = $pushBat
+        $pushShortcut.WorkingDirectory = $projectDir
+        $pushShortcut.Description = "Upload RailBlock AI to GitHub"
+        $pushShortcut.IconLocation = "$env:SystemRoot\System32\shell32.dll,13"
+        $pushShortcut.Save()
+        Write-Host "[+] Created Push to GitHub Shortcut at: $pushShortcutPath" -ForegroundColor Green
     }
 } catch {
     Write-Warning "Could not create desktop shortcut: $_"
