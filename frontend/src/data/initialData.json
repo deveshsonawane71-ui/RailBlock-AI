@@ -1,0 +1,4246 @@
+{
+  "corridor": {
+    "stations": [
+      {
+        "id": "STA01",
+        "name": "Mumbai CST",
+        "km": 0.0,
+        "lat": 18.9398,
+        "lon": 72.8355
+      },
+      {
+        "id": "STA02",
+        "name": "Byculla",
+        "km": 5.2,
+        "lat": 18.9775,
+        "lon": 72.8331
+      },
+      {
+        "id": "STA03",
+        "name": "Dadar",
+        "km": 11.0,
+        "lat": 19.0178,
+        "lon": 72.8425
+      },
+      {
+        "id": "STA04",
+        "name": "Kurla",
+        "km": 18.5,
+        "lat": 19.0653,
+        "lon": 72.8794
+      },
+      {
+        "id": "STA05",
+        "name": "Thane",
+        "km": 34.0,
+        "lat": 19.186,
+        "lon": 72.9756
+      }
+    ],
+    "sections": [
+      {
+        "id": "SEC01",
+        "from_station": "STA01",
+        "to_station": "STA02",
+        "length_km": 5.2,
+        "tracks": 4,
+        "max_speed_kmh": 100,
+        "electrified": true,
+        "traffic_density": "very_high",
+        "from_station_name": "Mumbai CST",
+        "to_station_name": "Byculla"
+      },
+      {
+        "id": "SEC02",
+        "from_station": "STA02",
+        "to_station": "STA03",
+        "length_km": 5.8,
+        "tracks": 4,
+        "max_speed_kmh": 100,
+        "electrified": true,
+        "traffic_density": "very_high",
+        "from_station_name": "Byculla",
+        "to_station_name": "Dadar"
+      },
+      {
+        "id": "SEC03",
+        "from_station": "STA03",
+        "to_station": "STA04",
+        "length_km": 7.5,
+        "tracks": 4,
+        "max_speed_kmh": 110,
+        "electrified": true,
+        "traffic_density": "high",
+        "from_station_name": "Dadar",
+        "to_station_name": "Kurla"
+      },
+      {
+        "id": "SEC04",
+        "from_station": "STA04",
+        "to_station": "STA05",
+        "length_km": 15.5,
+        "tracks": 4,
+        "max_speed_kmh": 120,
+        "electrified": true,
+        "traffic_density": "high",
+        "from_station_name": "Kurla",
+        "to_station_name": "Thane"
+      }
+    ],
+    "name": "Mumbai CST \u2014 Thane Corridor",
+    "zone": "Central Railway",
+    "division": "Mumbai Division"
+  },
+  "defects": [
+    {
+      "defect_id": "DEF-0004",
+      "section_id": "SEC02",
+      "department": "ENG",
+      "defect_type": "Rail Fracture",
+      "severity": 95,
+      "safety_critical": true,
+      "date_reported": "2026-08-18T00:00:00",
+      "due_date": "2026-09-07T00:00:00",
+      "estimated_duration_min": 86,
+      "priority_score": 95.0,
+      "priority_label": "Critical",
+      "status": "Open",
+      "requires_block_type": "Traffic",
+      "equipment_needed": [],
+      "description": "Rail Fracture detected on section SEC02"
+    },
+    {
+      "defect_id": "DEF-0011",
+      "section_id": "SEC02",
+      "department": "ENG",
+      "defect_type": "Rail Fracture",
+      "severity": 95,
+      "safety_critical": true,
+      "date_reported": "2026-08-16T00:00:00",
+      "due_date": "2026-08-28T00:00:00",
+      "estimated_duration_min": 65,
+      "priority_score": 95.0,
+      "priority_label": "Critical",
+      "status": "Open",
+      "requires_block_type": "Traffic",
+      "equipment_needed": [],
+      "description": "Rail Fracture detected on section SEC02"
+    },
+    {
+      "defect_id": "DEF-0017",
+      "section_id": "SEC03",
+      "department": "ENG",
+      "defect_type": "Rail Fracture",
+      "severity": 95,
+      "safety_critical": true,
+      "date_reported": "2026-08-28T00:00:00",
+      "due_date": "2026-09-08T00:00:00",
+      "estimated_duration_min": 64,
+      "priority_score": 95.0,
+      "priority_label": "Critical",
+      "status": "Open",
+      "requires_block_type": "Traffic",
+      "equipment_needed": [],
+      "description": "Rail Fracture detected on section SEC03"
+    },
+    {
+      "defect_id": "DEF-0029",
+      "section_id": "SEC03",
+      "department": "ENG",
+      "defect_type": "Rail Fracture",
+      "severity": 95,
+      "safety_critical": true,
+      "date_reported": "2026-08-25T00:00:00",
+      "due_date": "2026-08-28T00:00:00",
+      "estimated_duration_min": 67,
+      "priority_score": 95.0,
+      "priority_label": "Critical",
+      "status": "Open",
+      "requires_block_type": "Traffic",
+      "equipment_needed": [],
+      "description": "Rail Fracture detected on section SEC03"
+    },
+    {
+      "defect_id": "DEF-0038",
+      "section_id": "SEC02",
+      "department": "ENG",
+      "defect_type": "Rail Fracture",
+      "severity": 95,
+      "safety_critical": true,
+      "date_reported": "2026-09-07T00:00:00",
+      "due_date": "2026-09-11T00:00:00",
+      "estimated_duration_min": 115,
+      "priority_score": 95.0,
+      "priority_label": "Critical",
+      "status": "Open",
+      "requires_block_type": "Traffic",
+      "equipment_needed": [],
+      "description": "Rail Fracture detected on section SEC02"
+    },
+    {
+      "defect_id": "DEF-0022",
+      "section_id": "SEC01",
+      "department": "S&T",
+      "defect_type": "Signal Cable Fault",
+      "severity": 80,
+      "safety_critical": true,
+      "date_reported": "2026-08-13T00:00:00",
+      "due_date": "2026-08-19T00:00:00",
+      "estimated_duration_min": 39,
+      "priority_score": 93.0,
+      "priority_label": "Critical",
+      "status": "Open",
+      "requires_block_type": "Disconnection",
+      "equipment_needed": [
+        "Cable Locator"
+      ],
+      "description": "Signal Cable Fault detected on section SEC01"
+    },
+    {
+      "defect_id": "DEF-0013",
+      "section_id": "SEC03",
+      "department": "S&T",
+      "defect_type": "Point Machine Failure",
+      "severity": 90,
+      "safety_critical": true,
+      "date_reported": "2026-08-29T00:00:00",
+      "due_date": "2026-09-07T00:00:00",
+      "estimated_duration_min": 102,
+      "priority_score": 92.0,
+      "priority_label": "Critical",
+      "status": "Open",
+      "requires_block_type": "Disconnection",
+      "equipment_needed": [],
+      "description": "Point Machine Failure detected on section SEC03"
+    },
+    {
+      "defect_id": "DEF-0001",
+      "section_id": "SEC01",
+      "department": "TRD",
+      "defect_type": "OHE Wire Sag",
+      "severity": 75,
+      "safety_critical": true,
+      "date_reported": "2026-08-17T00:00:00",
+      "due_date": "2026-08-28T00:00:00",
+      "estimated_duration_min": 75,
+      "priority_score": 90.0,
+      "priority_label": "Critical",
+      "status": "Open",
+      "requires_block_type": "Power",
+      "equipment_needed": [
+        "Tower Wagon"
+      ],
+      "description": "OHE Wire Sag detected on section SEC01"
+    },
+    {
+      "defect_id": "DEF-0012",
+      "section_id": "SEC04",
+      "department": "ENG",
+      "defect_type": "Weld Failure",
+      "severity": 85,
+      "safety_critical": true,
+      "date_reported": "2026-09-01T00:00:00",
+      "due_date": "2026-09-18T00:00:00",
+      "estimated_duration_min": 171,
+      "priority_score": 90.0,
+      "priority_label": "Critical",
+      "status": "Open",
+      "requires_block_type": "Traffic",
+      "equipment_needed": [],
+      "description": "Weld Failure detected on section SEC04"
+    },
+    {
+      "defect_id": "DEF-0025",
+      "section_id": "SEC03",
+      "department": "ENG",
+      "defect_type": "Weld Failure",
+      "severity": 85,
+      "safety_critical": true,
+      "date_reported": "2026-08-16T00:00:00",
+      "due_date": "2026-08-29T00:00:00",
+      "estimated_duration_min": 104,
+      "priority_score": 90.0,
+      "priority_label": "Critical",
+      "status": "Open",
+      "requires_block_type": "Traffic",
+      "equipment_needed": [],
+      "description": "Weld Failure detected on section SEC03"
+    },
+    {
+      "defect_id": "DEF-0030",
+      "section_id": "SEC02",
+      "department": "S&T",
+      "defect_type": "Track Circuit Fault",
+      "severity": 85,
+      "safety_critical": true,
+      "date_reported": "2026-09-08T00:00:00",
+      "due_date": "2026-09-18T00:00:00",
+      "estimated_duration_min": 117,
+      "priority_score": 90.0,
+      "priority_label": "Critical",
+      "status": "Open",
+      "requires_block_type": "Disconnection",
+      "equipment_needed": [],
+      "description": "Track Circuit Fault detected on section SEC02"
+    },
+    {
+      "defect_id": "DEF-0031",
+      "section_id": "SEC04",
+      "department": "ENG",
+      "defect_type": "Weld Failure",
+      "severity": 85,
+      "safety_critical": true,
+      "date_reported": "2026-08-14T00:00:00",
+      "due_date": "2026-08-19T00:00:00",
+      "estimated_duration_min": 158,
+      "priority_score": 90.0,
+      "priority_label": "Critical",
+      "status": "Open",
+      "requires_block_type": "Traffic",
+      "equipment_needed": [],
+      "description": "Weld Failure detected on section SEC04"
+    },
+    {
+      "defect_id": "DEF-0041",
+      "section_id": "SEC01",
+      "department": "ENG",
+      "defect_type": "Weld Failure",
+      "severity": 85,
+      "safety_critical": true,
+      "date_reported": "2026-08-19T00:00:00",
+      "due_date": "2026-09-04T00:00:00",
+      "estimated_duration_min": 135,
+      "priority_score": 90.0,
+      "priority_label": "Critical",
+      "status": "Open",
+      "requires_block_type": "Traffic",
+      "equipment_needed": [],
+      "description": "Weld Failure detected on section SEC01"
+    },
+    {
+      "defect_id": "DEF-0049",
+      "section_id": "SEC04",
+      "department": "S&T",
+      "defect_type": "Track Circuit Fault",
+      "severity": 85,
+      "safety_critical": true,
+      "date_reported": "2026-08-31T00:00:00",
+      "due_date": "2026-09-16T00:00:00",
+      "estimated_duration_min": 116,
+      "priority_score": 90.0,
+      "priority_label": "Critical",
+      "status": "Open",
+      "requires_block_type": "Disconnection",
+      "equipment_needed": [],
+      "description": "Track Circuit Fault detected on section SEC04"
+    },
+    {
+      "defect_id": "DEF-0010",
+      "section_id": "SEC03",
+      "department": "TRD",
+      "defect_type": "Mast Foundation Crack",
+      "severity": 70,
+      "safety_critical": true,
+      "date_reported": "2026-08-22T00:00:00",
+      "due_date": "2026-08-31T00:00:00",
+      "estimated_duration_min": 210,
+      "priority_score": 88.0,
+      "priority_label": "Critical",
+      "status": "Open",
+      "requires_block_type": "Power",
+      "equipment_needed": [
+        "Tower Wagon"
+      ],
+      "description": "Mast Foundation Crack detected on section SEC03"
+    },
+    {
+      "defect_id": "DEF-0023",
+      "section_id": "SEC04",
+      "department": "TRD",
+      "defect_type": "Insulator Damage",
+      "severity": 80,
+      "safety_critical": true,
+      "date_reported": "2026-08-21T00:00:00",
+      "due_date": "2026-08-26T00:00:00",
+      "estimated_duration_min": 69,
+      "priority_score": 88.0,
+      "priority_label": "Critical",
+      "status": "Open",
+      "requires_block_type": "Power",
+      "equipment_needed": [
+        "Tower Wagon"
+      ],
+      "description": "Insulator Damage detected on section SEC04"
+    },
+    {
+      "defect_id": "DEF-0007",
+      "section_id": "SEC01",
+      "department": "S&T",
+      "defect_type": "Signal Cable Fault",
+      "severity": 80,
+      "safety_critical": true,
+      "date_reported": "2026-08-28T00:00:00",
+      "due_date": "2026-09-03T00:00:00",
+      "estimated_duration_min": 52,
+      "priority_score": 83.4,
+      "priority_label": "High",
+      "status": "Open",
+      "requires_block_type": "Disconnection",
+      "equipment_needed": [
+        "Cable Locator"
+      ],
+      "description": "Signal Cable Fault detected on section SEC01"
+    },
+    {
+      "defect_id": "DEF-0015",
+      "section_id": "SEC02",
+      "department": "TRD",
+      "defect_type": "Insulator Damage",
+      "severity": 80,
+      "safety_critical": true,
+      "date_reported": "2026-08-26T00:00:00",
+      "due_date": "2026-09-10T00:00:00",
+      "estimated_duration_min": 62,
+      "priority_score": 73.0,
+      "priority_label": "High",
+      "status": "Open",
+      "requires_block_type": "Power",
+      "equipment_needed": [
+        "Tower Wagon"
+      ],
+      "description": "Insulator Damage detected on section SEC02"
+    },
+    {
+      "defect_id": "DEF-0039",
+      "section_id": "SEC02",
+      "department": "S&T",
+      "defect_type": "Signal Cable Fault",
+      "severity": 80,
+      "safety_critical": true,
+      "date_reported": "2026-09-01T00:00:00",
+      "due_date": "2026-09-19T00:00:00",
+      "estimated_duration_min": 43,
+      "priority_score": 68.5,
+      "priority_label": "High",
+      "status": "Open",
+      "requires_block_type": "Disconnection",
+      "equipment_needed": [
+        "Cable Locator"
+      ],
+      "description": "Signal Cable Fault detected on section SEC02"
+    },
+    {
+      "defect_id": "DEF-0009",
+      "section_id": "SEC01",
+      "department": "S&T",
+      "defect_type": "Axle Counter Maintenance",
+      "severity": 55,
+      "safety_critical": false,
+      "date_reported": "2026-08-11T00:00:00",
+      "due_date": "2026-08-26T00:00:00",
+      "estimated_duration_min": 65,
+      "priority_score": 65.8,
+      "priority_label": "High",
+      "status": "Open",
+      "requires_block_type": "Disconnection",
+      "equipment_needed": [],
+      "description": "Axle Counter Maintenance detected on section SEC01"
+    },
+    {
+      "defect_id": "DEF-0028",
+      "section_id": "SEC02",
+      "department": "ENG",
+      "defect_type": "Track Geometry Defect",
+      "severity": 70,
+      "safety_critical": true,
+      "date_reported": "2026-09-05T00:00:00",
+      "due_date": "2026-09-19T00:00:00",
+      "estimated_duration_min": 108,
+      "priority_score": 65.0,
+      "priority_label": "High",
+      "status": "Open",
+      "requires_block_type": "Traffic",
+      "equipment_needed": [],
+      "description": "Track Geometry Defect detected on section SEC02"
+    },
+    {
+      "defect_id": "DEF-0040",
+      "section_id": "SEC04",
+      "department": "TRD",
+      "defect_type": "Insulator Damage",
+      "severity": 80,
+      "safety_critical": true,
+      "date_reported": "2026-09-02T00:00:00",
+      "due_date": "2026-09-20T00:00:00",
+      "estimated_duration_min": 71,
+      "priority_score": 63.0,
+      "priority_label": "Medium",
+      "status": "Open",
+      "requires_block_type": "Power",
+      "equipment_needed": [
+        "Tower Wagon"
+      ],
+      "description": "Insulator Damage detected on section SEC04"
+    },
+    {
+      "defect_id": "DEF-0026",
+      "section_id": "SEC02",
+      "department": "S&T",
+      "defect_type": "Relay Replacement",
+      "severity": 50,
+      "safety_critical": false,
+      "date_reported": "2026-08-26T00:00:00",
+      "due_date": "2026-08-29T00:00:00",
+      "estimated_duration_min": 60,
+      "priority_score": 61.4,
+      "priority_label": "Medium",
+      "status": "Open",
+      "requires_block_type": "Disconnection",
+      "equipment_needed": [],
+      "description": "Relay Replacement detected on section SEC02"
+    },
+    {
+      "defect_id": "DEF-0008",
+      "section_id": "SEC03",
+      "department": "S&T",
+      "defect_type": "Axle Counter Maintenance",
+      "severity": 55,
+      "safety_critical": false,
+      "date_reported": "2026-08-15T00:00:00",
+      "due_date": "2026-08-19T00:00:00",
+      "estimated_duration_min": 106,
+      "priority_score": 60.8,
+      "priority_label": "Medium",
+      "status": "Open",
+      "requires_block_type": "Disconnection",
+      "equipment_needed": [],
+      "description": "Axle Counter Maintenance detected on section SEC03"
+    },
+    {
+      "defect_id": "DEF-0042",
+      "section_id": "SEC04",
+      "department": "S&T",
+      "defect_type": "Relay Replacement",
+      "severity": 50,
+      "safety_critical": false,
+      "date_reported": "2026-08-13T00:00:00",
+      "due_date": "2026-08-17T00:00:00",
+      "estimated_duration_min": 51,
+      "priority_score": 59.0,
+      "priority_label": "Medium",
+      "status": "Open",
+      "requires_block_type": "Disconnection",
+      "equipment_needed": [],
+      "description": "Relay Replacement detected on section SEC04"
+    },
+    {
+      "defect_id": "DEF-0014",
+      "section_id": "SEC01",
+      "department": "S&T",
+      "defect_type": "LED Signal Replacement",
+      "severity": 40,
+      "safety_critical": false,
+      "date_reported": "2026-08-21T00:00:00",
+      "due_date": "2026-08-29T00:00:00",
+      "estimated_duration_min": 37,
+      "priority_score": 57.9,
+      "priority_label": "Medium",
+      "status": "Open",
+      "requires_block_type": "Disconnection",
+      "equipment_needed": [],
+      "description": "LED Signal Replacement detected on section SEC01"
+    },
+    {
+      "defect_id": "DEF-0032",
+      "section_id": "SEC04",
+      "department": "ENG",
+      "defect_type": "Sleeper Damage",
+      "severity": 60,
+      "safety_critical": false,
+      "date_reported": "2026-08-23T00:00:00",
+      "due_date": "2026-08-31T00:00:00",
+      "estimated_duration_min": 38,
+      "priority_score": 57.3,
+      "priority_label": "Medium",
+      "status": "Open",
+      "requires_block_type": "Traffic",
+      "equipment_needed": [],
+      "description": "Sleeper Damage detected on section SEC04"
+    },
+    {
+      "defect_id": "DEF-0037",
+      "section_id": "SEC02",
+      "department": "TRD",
+      "defect_type": "Jumper Wire Replacement",
+      "severity": 35,
+      "safety_critical": false,
+      "date_reported": "2026-08-22T00:00:00",
+      "due_date": "2026-09-01T00:00:00",
+      "estimated_duration_min": 30,
+      "priority_score": 52.1,
+      "priority_label": "Medium",
+      "status": "Open",
+      "requires_block_type": "Power",
+      "equipment_needed": [
+        "Tower Wagon"
+      ],
+      "description": "Jumper Wire Replacement detected on section SEC02"
+    },
+    {
+      "defect_id": "DEF-0005",
+      "section_id": "SEC03",
+      "department": "ENG",
+      "defect_type": "Rail Grinding",
+      "severity": 30,
+      "safety_critical": false,
+      "date_reported": "2026-08-15T00:00:00",
+      "due_date": "2026-08-18T00:00:00",
+      "estimated_duration_min": 220,
+      "priority_score": 52.0,
+      "priority_label": "Medium",
+      "status": "Open",
+      "requires_block_type": "Traffic",
+      "equipment_needed": [
+        "Rail Grinding Machine"
+      ],
+      "description": "Rail Grinding detected on section SEC03"
+    },
+    {
+      "defect_id": "DEF-0034",
+      "section_id": "SEC02",
+      "department": "TRD",
+      "defect_type": "Power Supply Unit Check",
+      "severity": 25,
+      "safety_critical": false,
+      "date_reported": "2026-08-18T00:00:00",
+      "due_date": "2026-08-30T00:00:00",
+      "estimated_duration_min": 70,
+      "priority_score": 51.4,
+      "priority_label": "Medium",
+      "status": "Open",
+      "requires_block_type": "Power",
+      "equipment_needed": [
+        "Tower Wagon"
+      ],
+      "description": "Power Supply Unit Check detected on section SEC02"
+    },
+    {
+      "defect_id": "DEF-0024",
+      "section_id": "SEC04",
+      "department": "S&T",
+      "defect_type": "Axle Counter Maintenance",
+      "severity": 55,
+      "safety_critical": false,
+      "date_reported": "2026-08-24T00:00:00",
+      "due_date": "2026-09-04T00:00:00",
+      "estimated_duration_min": 95,
+      "priority_score": 49.6,
+      "priority_label": "Medium",
+      "status": "Open",
+      "requires_block_type": "Disconnection",
+      "equipment_needed": [],
+      "description": "Axle Counter Maintenance detected on section SEC04"
+    },
+    {
+      "defect_id": "DEF-0002",
+      "section_id": "SEC01",
+      "department": "ENG",
+      "defect_type": "Sleeper Damage",
+      "severity": 60,
+      "safety_critical": false,
+      "date_reported": "2026-08-19T00:00:00",
+      "due_date": "2026-09-08T00:00:00",
+      "estimated_duration_min": 32,
+      "priority_score": 48.9,
+      "priority_label": "Medium",
+      "status": "Open",
+      "requires_block_type": "Traffic",
+      "equipment_needed": [],
+      "description": "Sleeper Damage detected on section SEC01"
+    },
+    {
+      "defect_id": "DEF-0016",
+      "section_id": "SEC02",
+      "department": "TRD",
+      "defect_type": "Power Supply Unit Check",
+      "severity": 25,
+      "safety_critical": false,
+      "date_reported": "2026-08-19T00:00:00",
+      "due_date": "2026-09-01T00:00:00",
+      "estimated_duration_min": 48,
+      "priority_score": 48.6,
+      "priority_label": "Medium",
+      "status": "Open",
+      "requires_block_type": "Power",
+      "equipment_needed": [
+        "Tower Wagon"
+      ],
+      "description": "Power Supply Unit Check detected on section SEC02"
+    },
+    {
+      "defect_id": "DEF-0018",
+      "section_id": "SEC02",
+      "department": "ENG",
+      "defect_type": "Drainage Issue",
+      "severity": 35,
+      "safety_critical": false,
+      "date_reported": "2026-08-20T00:00:00",
+      "due_date": "2026-09-07T00:00:00",
+      "estimated_duration_min": 140,
+      "priority_score": 45.8,
+      "priority_label": "Medium",
+      "status": "Open",
+      "requires_block_type": "Traffic",
+      "equipment_needed": [],
+      "description": "Drainage Issue detected on section SEC02"
+    },
+    {
+      "defect_id": "DEF-0019",
+      "section_id": "SEC02",
+      "department": "TRD",
+      "defect_type": "Catenary Wire Wear",
+      "severity": 50,
+      "safety_critical": false,
+      "date_reported": "2026-09-01T00:00:00",
+      "due_date": "2026-09-08T00:00:00",
+      "estimated_duration_min": 91,
+      "priority_score": 45.4,
+      "priority_label": "Medium",
+      "status": "Open",
+      "requires_block_type": "Power",
+      "equipment_needed": [
+        "Tower Wagon"
+      ],
+      "description": "Catenary Wire Wear detected on section SEC02"
+    },
+    {
+      "defect_id": "DEF-0027",
+      "section_id": "SEC03",
+      "department": "TRD",
+      "defect_type": "Power Supply Unit Check",
+      "severity": 25,
+      "safety_critical": false,
+      "date_reported": "2026-08-24T00:00:00",
+      "due_date": "2026-09-01T00:00:00",
+      "estimated_duration_min": 77,
+      "priority_score": 43.6,
+      "priority_label": "Medium",
+      "status": "Open",
+      "requires_block_type": "Power",
+      "equipment_needed": [
+        "Tower Wagon"
+      ],
+      "description": "Power Supply Unit Check detected on section SEC03"
+    },
+    {
+      "defect_id": "DEF-0003",
+      "section_id": "SEC01",
+      "department": "TRD",
+      "defect_type": "Catenary Wire Wear",
+      "severity": 50,
+      "safety_critical": false,
+      "date_reported": "2026-09-09T00:00:00",
+      "due_date": "2026-09-14T00:00:00",
+      "estimated_duration_min": 87,
+      "priority_score": 42.0,
+      "priority_label": "Medium",
+      "status": "Open",
+      "requires_block_type": "Power",
+      "equipment_needed": [
+        "Tower Wagon"
+      ],
+      "description": "Catenary Wire Wear detected on section SEC01"
+    },
+    {
+      "defect_id": "DEF-0047",
+      "section_id": "SEC02",
+      "department": "ENG",
+      "defect_type": "Ballast Deficiency",
+      "severity": 40,
+      "safety_critical": false,
+      "date_reported": "2026-08-27T00:00:00",
+      "due_date": "2026-09-14T00:00:00",
+      "estimated_duration_min": 181,
+      "priority_score": 42.0,
+      "priority_label": "Medium",
+      "status": "Open",
+      "requires_block_type": "Traffic",
+      "equipment_needed": [
+        "Tamping Machine"
+      ],
+      "description": "Ballast Deficiency detected on section SEC02"
+    },
+    {
+      "defect_id": "DEF-0006",
+      "section_id": "SEC03",
+      "department": "TRD",
+      "defect_type": "Catenary Wire Wear",
+      "severity": 50,
+      "safety_critical": false,
+      "date_reported": "2026-09-01T00:00:00",
+      "due_date": "2026-09-08T00:00:00",
+      "estimated_duration_min": 87,
+      "priority_score": 40.4,
+      "priority_label": "Medium",
+      "status": "Open",
+      "requires_block_type": "Power",
+      "equipment_needed": [
+        "Tower Wagon"
+      ],
+      "description": "Catenary Wire Wear detected on section SEC03"
+    },
+    {
+      "defect_id": "DEF-0036",
+      "section_id": "SEC02",
+      "department": "ENG",
+      "defect_type": "Ballast Deficiency",
+      "severity": 40,
+      "safety_critical": false,
+      "date_reported": "2026-09-07T00:00:00",
+      "due_date": "2026-09-20T00:00:00",
+      "estimated_duration_min": 122,
+      "priority_score": 39.0,
+      "priority_label": "Low",
+      "status": "Open",
+      "requires_block_type": "Traffic",
+      "equipment_needed": [
+        "Tamping Machine"
+      ],
+      "description": "Ballast Deficiency detected on section SEC02"
+    },
+    {
+      "defect_id": "DEF-0044",
+      "section_id": "SEC02",
+      "department": "ENG",
+      "defect_type": "Ballast Deficiency",
+      "severity": 40,
+      "safety_critical": false,
+      "date_reported": "2026-09-03T00:00:00",
+      "due_date": "2026-09-23T00:00:00",
+      "estimated_duration_min": 177,
+      "priority_score": 39.0,
+      "priority_label": "Low",
+      "status": "Open",
+      "requires_block_type": "Traffic",
+      "equipment_needed": [
+        "Tamping Machine"
+      ],
+      "description": "Ballast Deficiency detected on section SEC02"
+    },
+    {
+      "defect_id": "DEF-0021",
+      "section_id": "SEC03",
+      "department": "TRD",
+      "defect_type": "Catenary Wire Wear",
+      "severity": 50,
+      "safety_critical": false,
+      "date_reported": "2026-09-02T00:00:00",
+      "due_date": "2026-09-09T00:00:00",
+      "estimated_duration_min": 125,
+      "priority_score": 37.9,
+      "priority_label": "Low",
+      "status": "Open",
+      "requires_block_type": "Power",
+      "equipment_needed": [
+        "Tower Wagon"
+      ],
+      "description": "Catenary Wire Wear detected on section SEC03"
+    },
+    {
+      "defect_id": "DEF-0020",
+      "section_id": "SEC03",
+      "department": "TRD",
+      "defect_type": "Jumper Wire Replacement",
+      "severity": 35,
+      "safety_critical": false,
+      "date_reported": "2026-08-17T00:00:00",
+      "due_date": "2026-09-07T00:00:00",
+      "estimated_duration_min": 43,
+      "priority_score": 37.3,
+      "priority_label": "Low",
+      "status": "Open",
+      "requires_block_type": "Power",
+      "equipment_needed": [
+        "Tower Wagon"
+      ],
+      "description": "Jumper Wire Replacement detected on section SEC03"
+    },
+    {
+      "defect_id": "DEF-0046",
+      "section_id": "SEC01",
+      "department": "ENG",
+      "defect_type": "Rail Grinding",
+      "severity": 30,
+      "safety_critical": false,
+      "date_reported": "2026-09-08T00:00:00",
+      "due_date": "2026-09-28T00:00:00",
+      "estimated_duration_min": 183,
+      "priority_score": 32.0,
+      "priority_label": "Low",
+      "status": "Open",
+      "requires_block_type": "Traffic",
+      "equipment_needed": [
+        "Rail Grinding Machine"
+      ],
+      "description": "Rail Grinding detected on section SEC01"
+    },
+    {
+      "defect_id": "DEF-0043",
+      "section_id": "SEC01",
+      "department": "TRD",
+      "defect_type": "Power Supply Unit Check",
+      "severity": 25,
+      "safety_critical": false,
+      "date_reported": "2026-09-08T00:00:00",
+      "due_date": "2026-09-23T00:00:00",
+      "estimated_duration_min": 66,
+      "priority_score": 30.2,
+      "priority_label": "Low",
+      "status": "Open",
+      "requires_block_type": "Power",
+      "equipment_needed": [
+        "Tower Wagon"
+      ],
+      "description": "Power Supply Unit Check detected on section SEC01"
+    },
+    {
+      "defect_id": "DEF-0045",
+      "section_id": "SEC02",
+      "department": "ENG",
+      "defect_type": "Routine Tamping",
+      "severity": 20,
+      "safety_critical": false,
+      "date_reported": "2026-09-01T00:00:00",
+      "due_date": "2026-09-18T00:00:00",
+      "estimated_duration_min": 183,
+      "priority_score": 29.5,
+      "priority_label": "Low",
+      "status": "Open",
+      "requires_block_type": "Traffic",
+      "equipment_needed": [
+        "Tamping Machine"
+      ],
+      "description": "Routine Tamping detected on section SEC02"
+    },
+    {
+      "defect_id": "DEF-0048",
+      "section_id": "SEC01",
+      "department": "ENG",
+      "defect_type": "Routine Tamping",
+      "severity": 20,
+      "safety_critical": false,
+      "date_reported": "2026-09-04T00:00:00",
+      "due_date": "2026-09-19T00:00:00",
+      "estimated_duration_min": 120,
+      "priority_score": 29.0,
+      "priority_label": "Low",
+      "status": "Open",
+      "requires_block_type": "Traffic",
+      "equipment_needed": [
+        "Tamping Machine"
+      ],
+      "description": "Routine Tamping detected on section SEC01"
+    },
+    {
+      "defect_id": "DEF-0033",
+      "section_id": "SEC04",
+      "department": "TRD",
+      "defect_type": "Jumper Wire Replacement",
+      "severity": 35,
+      "safety_critical": false,
+      "date_reported": "2026-09-03T00:00:00",
+      "due_date": "2026-09-23T00:00:00",
+      "estimated_duration_min": 54,
+      "priority_score": 28.8,
+      "priority_label": "Low",
+      "status": "Open",
+      "requires_block_type": "Power",
+      "equipment_needed": [
+        "Tower Wagon"
+      ],
+      "description": "Jumper Wire Replacement detected on section SEC04"
+    },
+    {
+      "defect_id": "DEF-0035",
+      "section_id": "SEC03",
+      "department": "TRD",
+      "defect_type": "Power Supply Unit Check",
+      "severity": 25,
+      "safety_critical": false,
+      "date_reported": "2026-08-26T00:00:00",
+      "due_date": "2026-09-14T00:00:00",
+      "estimated_duration_min": 73,
+      "priority_score": 28.3,
+      "priority_label": "Low",
+      "status": "Open",
+      "requires_block_type": "Power",
+      "equipment_needed": [
+        "Tower Wagon"
+      ],
+      "description": "Power Supply Unit Check detected on section SEC03"
+    },
+    {
+      "defect_id": "DEF-0050",
+      "section_id": "SEC04",
+      "department": "TRD",
+      "defect_type": "Power Supply Unit Check",
+      "severity": 25,
+      "safety_critical": false,
+      "date_reported": "2026-09-05T00:00:00",
+      "due_date": "2026-09-14T00:00:00",
+      "estimated_duration_min": 63,
+      "priority_score": 28.3,
+      "priority_label": "Low",
+      "status": "Open",
+      "requires_block_type": "Power",
+      "equipment_needed": [
+        "Tower Wagon"
+      ],
+      "description": "Power Supply Unit Check detected on section SEC04"
+    }
+  ],
+  "kpis": {
+    "asset_availability": {
+      "label": "Asset Availability",
+      "value": 86.9,
+      "unit": "%",
+      "trend": "up",
+      "is_good": true,
+      "baseline_value": 85.7,
+      "improvement_pct": 1.2
+    },
+    "block_utilization": {
+      "label": "Block Utilization",
+      "value": 90.9,
+      "unit": "%",
+      "trend": "up",
+      "is_good": true,
+      "baseline_value": 82.6,
+      "improvement_pct": 8.3
+    },
+    "integrated_block_ratio": {
+      "label": "Integrated Block Ratio",
+      "value": 66.7,
+      "unit": "%",
+      "trend": "up",
+      "is_good": true,
+      "baseline_value": 0.0,
+      "improvement_pct": 66.7
+    },
+    "overdue_maintenance": {
+      "label": "Overdue Maintenance",
+      "value": 32.0,
+      "unit": "items",
+      "trend": "down",
+      "is_good": true,
+      "baseline_value": 37.0,
+      "improvement_pct": -5.0
+    },
+    "avg_block_duration": {
+      "label": "Avg Block Duration",
+      "value": 3.7,
+      "unit": "hours",
+      "trend": "down",
+      "is_good": true,
+      "baseline_value": 1.9,
+      "improvement_pct": -1.8
+    },
+    "delay_minutes_saved": {
+      "label": "Delay Minutes Saved",
+      "value": 130.0,
+      "unit": "min",
+      "trend": "up",
+      "is_good": true,
+      "baseline_value": 0.0,
+      "improvement_pct": 130.0
+    }
+  },
+  "kpis_comparison": [
+    {
+      "metric": "Asset Availability",
+      "manual_value": 85.7,
+      "ai_value": 86.9,
+      "improvement": 1.2,
+      "unit": "%"
+    },
+    {
+      "metric": "Block Utilization",
+      "manual_value": 82.6,
+      "ai_value": 90.9,
+      "improvement": 8.3,
+      "unit": "%"
+    },
+    {
+      "metric": "Integrated Block Ratio",
+      "manual_value": 0.0,
+      "ai_value": 66.7,
+      "improvement": 66.7,
+      "unit": "%"
+    },
+    {
+      "metric": "Total Block Hours",
+      "manual_value": 95.9,
+      "ai_value": 88.2,
+      "improvement": 7.7,
+      "unit": "hours"
+    },
+    {
+      "metric": "Avg Block Duration",
+      "manual_value": 1.9,
+      "ai_value": 3.7,
+      "improvement": -1.8,
+      "unit": "hours"
+    },
+    {
+      "metric": "Delay Minutes Saved",
+      "manual_value": 0.0,
+      "ai_value": 130.0,
+      "improvement": 130.0,
+      "unit": "min"
+    }
+  ],
+  "schedule": {
+    "schedule_id": "SCH-213eb9a0",
+    "created_at": "2026-09-10T22:12:06.448545",
+    "blocks": [
+      {
+        "block_id": "BLK-bbde231e",
+        "section_id": "SEC02",
+        "section_name": "Byculla -> Dadar",
+        "block_type": "Traffic",
+        "start_time": "2026-09-10T00:00:00",
+        "end_time": "2026-09-10T03:15:00",
+        "duration_min": 197,
+        "departments": [
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "TSK-0044"
+        ],
+        "task_details": [
+          {
+            "task_id": "TSK-0044",
+            "type": "Ballast Deficiency",
+            "department": "ENG",
+            "duration_min": 177,
+            "priority": 39.0
+          }
+        ],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.1,
+        "conflicts": []
+      },
+      {
+        "block_id": "BLK-87218e6a",
+        "section_id": "SEC03",
+        "section_name": "Dadar -> Kurla",
+        "block_type": "Integrated",
+        "start_time": "2026-09-10T00:00:00",
+        "end_time": "2026-09-10T04:30:00",
+        "duration_min": 280,
+        "departments": [
+          "TRD",
+          "S&T",
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "TSK-0029",
+          "TSK-0008",
+          "TSK-0006"
+        ],
+        "task_details": [
+          {
+            "task_id": "TSK-0029",
+            "type": "Rail Fracture",
+            "department": "ENG",
+            "duration_min": 67,
+            "priority": 95.0
+          },
+          {
+            "task_id": "TSK-0008",
+            "type": "Axle Counter Maintenance",
+            "department": "S&T",
+            "duration_min": 106,
+            "priority": 60.8
+          },
+          {
+            "task_id": "TSK-0006",
+            "type": "Catenary Wire Wear",
+            "department": "TRD",
+            "duration_min": 87,
+            "priority": 40.4
+          }
+        ],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": true,
+        "disruption_score": 0.1,
+        "conflicts": []
+      },
+      {
+        "block_id": "BLK-4d461fb8",
+        "section_id": "SEC01",
+        "section_name": "Mumbai CST -> Byculla",
+        "block_type": "Integrated",
+        "start_time": "2026-09-10T00:00:00",
+        "end_time": "2026-09-10T04:15:00",
+        "duration_min": 269,
+        "departments": [
+          "TRD",
+          "S&T",
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "TSK-0022",
+          "TSK-0001",
+          "TSK-0041"
+        ],
+        "task_details": [
+          {
+            "task_id": "TSK-0022",
+            "type": "Signal Cable Fault",
+            "department": "S&T",
+            "duration_min": 39,
+            "priority": 93.0
+          },
+          {
+            "task_id": "TSK-0001",
+            "type": "OHE Wire Sag",
+            "department": "TRD",
+            "duration_min": 75,
+            "priority": 90.0
+          },
+          {
+            "task_id": "TSK-0041",
+            "type": "Weld Failure",
+            "department": "ENG",
+            "duration_min": 135,
+            "priority": 90.0
+          }
+        ],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": true,
+        "disruption_score": 0.1,
+        "conflicts": []
+      },
+      {
+        "block_id": "BLK-e94cc6c1",
+        "section_id": "SEC04",
+        "section_name": "Kurla -> Thane",
+        "block_type": "Integrated",
+        "start_time": "2026-09-10T00:00:00",
+        "end_time": "2026-09-10T05:00:00",
+        "duration_min": 307,
+        "departments": [
+          "S&T",
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "TSK-0012",
+          "TSK-0049"
+        ],
+        "task_details": [
+          {
+            "task_id": "TSK-0012",
+            "type": "Weld Failure",
+            "department": "ENG",
+            "duration_min": 171,
+            "priority": 90.0
+          },
+          {
+            "task_id": "TSK-0049",
+            "type": "Track Circuit Fault",
+            "department": "S&T",
+            "duration_min": 116,
+            "priority": 90.0
+          }
+        ],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": true,
+        "disruption_score": 0.1,
+        "conflicts": []
+      },
+      {
+        "block_id": "BLK-35bb3dd5",
+        "section_id": "SEC02",
+        "section_name": "Byculla -> Dadar",
+        "block_type": "Traffic",
+        "start_time": "2026-09-10T10:00:00",
+        "end_time": "2026-09-10T13:15:00",
+        "duration_min": 201,
+        "departments": [
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "TSK-0047"
+        ],
+        "task_details": [
+          {
+            "task_id": "TSK-0047",
+            "type": "Ballast Deficiency",
+            "department": "ENG",
+            "duration_min": 181,
+            "priority": 42.0
+          }
+        ],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.4,
+        "conflicts": []
+      },
+      {
+        "block_id": "BLK-4dc0ca56",
+        "section_id": "SEC03",
+        "section_name": "Dadar -> Kurla",
+        "block_type": "Integrated",
+        "start_time": "2026-09-10T10:00:00",
+        "end_time": "2026-09-10T14:00:00",
+        "duration_min": 249,
+        "departments": [
+          "TRD",
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "TSK-0025",
+          "TSK-0021"
+        ],
+        "task_details": [
+          {
+            "task_id": "TSK-0025",
+            "type": "Weld Failure",
+            "department": "ENG",
+            "duration_min": 104,
+            "priority": 90.0
+          },
+          {
+            "task_id": "TSK-0021",
+            "type": "Catenary Wire Wear",
+            "department": "TRD",
+            "duration_min": 125,
+            "priority": 37.9
+          }
+        ],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": true,
+        "disruption_score": 0.4,
+        "conflicts": []
+      },
+      {
+        "block_id": "BLK-1ec06e16",
+        "section_id": "SEC01",
+        "section_name": "Mumbai CST -> Byculla",
+        "block_type": "Integrated",
+        "start_time": "2026-09-10T10:00:00",
+        "end_time": "2026-09-10T13:00:00",
+        "duration_min": 191,
+        "departments": [
+          "TRD",
+          "S&T",
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "TSK-0007",
+          "TSK-0003",
+          "TSK-0002"
+        ],
+        "task_details": [
+          {
+            "task_id": "TSK-0007",
+            "type": "Signal Cable Fault",
+            "department": "S&T",
+            "duration_min": 52,
+            "priority": 83.4
+          },
+          {
+            "task_id": "TSK-0003",
+            "type": "Catenary Wire Wear",
+            "department": "TRD",
+            "duration_min": 87,
+            "priority": 42.0
+          },
+          {
+            "task_id": "TSK-0002",
+            "type": "Sleeper Damage",
+            "department": "ENG",
+            "duration_min": 32,
+            "priority": 48.9
+          }
+        ],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": true,
+        "disruption_score": 0.4,
+        "conflicts": []
+      },
+      {
+        "block_id": "BLK-9c7ed57c",
+        "section_id": "SEC02",
+        "section_name": "Byculla -> Dadar",
+        "block_type": "Integrated",
+        "start_time": "2026-09-11T00:00:00",
+        "end_time": "2026-09-11T02:30:00",
+        "duration_min": 158,
+        "departments": [
+          "TRD",
+          "S&T",
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "TSK-0011",
+          "TSK-0039",
+          "TSK-0037"
+        ],
+        "task_details": [
+          {
+            "task_id": "TSK-0011",
+            "type": "Rail Fracture",
+            "department": "ENG",
+            "duration_min": 65,
+            "priority": 95.0
+          },
+          {
+            "task_id": "TSK-0039",
+            "type": "Signal Cable Fault",
+            "department": "S&T",
+            "duration_min": 43,
+            "priority": 68.5
+          },
+          {
+            "task_id": "TSK-0037",
+            "type": "Jumper Wire Replacement",
+            "department": "TRD",
+            "duration_min": 30,
+            "priority": 52.1
+          }
+        ],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": true,
+        "disruption_score": 0.1,
+        "conflicts": []
+      },
+      {
+        "block_id": "BLK-27b6858b",
+        "section_id": "SEC03",
+        "section_name": "Dadar -> Kurla",
+        "block_type": "Integrated",
+        "start_time": "2026-09-11T00:00:00",
+        "end_time": "2026-09-11T04:15:00",
+        "duration_min": 263,
+        "departments": [
+          "TRD",
+          "S&T",
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "TSK-0017",
+          "TSK-0013",
+          "TSK-0027"
+        ],
+        "task_details": [
+          {
+            "task_id": "TSK-0017",
+            "type": "Rail Fracture",
+            "department": "ENG",
+            "duration_min": 64,
+            "priority": 95.0
+          },
+          {
+            "task_id": "TSK-0013",
+            "type": "Point Machine Failure",
+            "department": "S&T",
+            "duration_min": 102,
+            "priority": 92.0
+          },
+          {
+            "task_id": "TSK-0027",
+            "type": "Power Supply Unit Check",
+            "department": "TRD",
+            "duration_min": 77,
+            "priority": 43.6
+          }
+        ],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": true,
+        "disruption_score": 0.1,
+        "conflicts": []
+      },
+      {
+        "block_id": "BLK-1de220b4",
+        "section_id": "SEC01",
+        "section_name": "Mumbai CST -> Byculla",
+        "block_type": "Integrated",
+        "start_time": "2026-09-11T00:00:00",
+        "end_time": "2026-09-11T04:00:00",
+        "duration_min": 240,
+        "departments": [
+          "S&T",
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "TSK-0014",
+          "TSK-0046"
+        ],
+        "task_details": [
+          {
+            "task_id": "TSK-0014",
+            "type": "LED Signal Replacement",
+            "department": "S&T",
+            "duration_min": 37,
+            "priority": 57.9
+          },
+          {
+            "task_id": "TSK-0046",
+            "type": "Rail Grinding",
+            "department": "ENG",
+            "duration_min": 183,
+            "priority": 32.0
+          }
+        ],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": true,
+        "disruption_score": 0.1,
+        "conflicts": []
+      },
+      {
+        "block_id": "BLK-94e6de9d",
+        "section_id": "SEC02",
+        "section_name": "Byculla -> Dadar",
+        "block_type": "Traffic",
+        "start_time": "2026-09-11T02:30:00",
+        "end_time": "2026-09-11T04:45:00",
+        "duration_min": 142,
+        "departments": [
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "TSK-0036"
+        ],
+        "task_details": [
+          {
+            "task_id": "TSK-0036",
+            "type": "Ballast Deficiency",
+            "department": "ENG",
+            "duration_min": 122,
+            "priority": 39.0
+          }
+        ],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.1,
+        "conflicts": []
+      },
+      {
+        "block_id": "BLK-b9588e6b",
+        "section_id": "SEC04",
+        "section_name": "Kurla -> Thane",
+        "block_type": "Power",
+        "start_time": "2026-09-11T02:30:00",
+        "end_time": "2026-09-11T04:00:00",
+        "duration_min": 98,
+        "departments": [
+          "TRD"
+        ],
+        "assigned_tasks": [
+          "TSK-0050"
+        ],
+        "task_details": [
+          {
+            "task_id": "TSK-0050",
+            "type": "Power Supply Unit Check",
+            "department": "TRD",
+            "duration_min": 63,
+            "priority": 28.3
+          }
+        ],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.1,
+        "conflicts": []
+      },
+      {
+        "block_id": "BLK-d0b9f9b1",
+        "section_id": "SEC02",
+        "section_name": "Byculla -> Dadar",
+        "block_type": "Integrated",
+        "start_time": "2026-09-11T10:00:00",
+        "end_time": "2026-09-11T12:45:00",
+        "duration_min": 176,
+        "departments": [
+          "TRD",
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "TSK-0028",
+          "TSK-0016"
+        ],
+        "task_details": [
+          {
+            "task_id": "TSK-0028",
+            "type": "Track Geometry Defect",
+            "department": "ENG",
+            "duration_min": 108,
+            "priority": 65.0
+          },
+          {
+            "task_id": "TSK-0016",
+            "type": "Power Supply Unit Check",
+            "department": "TRD",
+            "duration_min": 48,
+            "priority": 48.6
+          }
+        ],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": true,
+        "disruption_score": 0.4,
+        "conflicts": []
+      },
+      {
+        "block_id": "BLK-93ed93f9",
+        "section_id": "SEC03",
+        "section_name": "Dadar -> Kurla",
+        "block_type": "Power",
+        "start_time": "2026-09-11T10:00:00",
+        "end_time": "2026-09-11T14:00:00",
+        "duration_min": 245,
+        "departments": [
+          "TRD"
+        ],
+        "assigned_tasks": [
+          "TSK-0010"
+        ],
+        "task_details": [
+          {
+            "task_id": "TSK-0010",
+            "type": "Mast Foundation Crack",
+            "department": "TRD",
+            "duration_min": 210,
+            "priority": 88.0
+          }
+        ],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.4,
+        "conflicts": []
+      },
+      {
+        "block_id": "BLK-65a87588",
+        "section_id": "SEC04",
+        "section_name": "Kurla -> Thane",
+        "block_type": "Power",
+        "start_time": "2026-09-11T12:45:00",
+        "end_time": "2026-09-11T14:00:00",
+        "duration_min": 89,
+        "departments": [
+          "TRD"
+        ],
+        "assigned_tasks": [
+          "TSK-0033"
+        ],
+        "task_details": [
+          {
+            "task_id": "TSK-0033",
+            "type": "Jumper Wire Replacement",
+            "department": "TRD",
+            "duration_min": 54,
+            "priority": 28.8
+          }
+        ],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.4,
+        "conflicts": []
+      },
+      {
+        "block_id": "BLK-a8932594",
+        "section_id": "SEC02",
+        "section_name": "Byculla -> Dadar",
+        "block_type": "Integrated",
+        "start_time": "2026-09-12T00:00:00",
+        "end_time": "2026-09-12T04:45:00",
+        "duration_min": 285,
+        "departments": [
+          "TRD",
+          "S&T",
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "TSK-0004",
+          "TSK-0030",
+          "TSK-0015"
+        ],
+        "task_details": [
+          {
+            "task_id": "TSK-0004",
+            "type": "Rail Fracture",
+            "department": "ENG",
+            "duration_min": 86,
+            "priority": 95.0
+          },
+          {
+            "task_id": "TSK-0030",
+            "type": "Track Circuit Fault",
+            "department": "S&T",
+            "duration_min": 117,
+            "priority": 90.0
+          },
+          {
+            "task_id": "TSK-0015",
+            "type": "Insulator Damage",
+            "department": "TRD",
+            "duration_min": 62,
+            "priority": 73.0
+          }
+        ],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": true,
+        "disruption_score": 0.1,
+        "conflicts": []
+      },
+      {
+        "block_id": "BLK-84c4add6",
+        "section_id": "SEC04",
+        "section_name": "Kurla -> Thane",
+        "block_type": "Integrated",
+        "start_time": "2026-09-12T00:00:00",
+        "end_time": "2026-09-12T04:45:00",
+        "duration_min": 298,
+        "departments": [
+          "TRD",
+          "S&T",
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "TSK-0031",
+          "TSK-0042",
+          "TSK-0023"
+        ],
+        "task_details": [
+          {
+            "task_id": "TSK-0031",
+            "type": "Weld Failure",
+            "department": "ENG",
+            "duration_min": 158,
+            "priority": 90.0
+          },
+          {
+            "task_id": "TSK-0042",
+            "type": "Relay Replacement",
+            "department": "S&T",
+            "duration_min": 51,
+            "priority": 59.0
+          },
+          {
+            "task_id": "TSK-0023",
+            "type": "Insulator Damage",
+            "department": "TRD",
+            "duration_min": 69,
+            "priority": 88.0
+          }
+        ],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": true,
+        "disruption_score": 0.1,
+        "conflicts": []
+      },
+      {
+        "block_id": "BLK-90cbd196",
+        "section_id": "SEC02",
+        "section_name": "Byculla -> Dadar",
+        "block_type": "Traffic",
+        "start_time": "2026-09-12T10:00:00",
+        "end_time": "2026-09-12T13:15:00",
+        "duration_min": 203,
+        "departments": [
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "TSK-0045"
+        ],
+        "task_details": [
+          {
+            "task_id": "TSK-0045",
+            "type": "Routine Tamping",
+            "department": "ENG",
+            "duration_min": 183,
+            "priority": 29.5
+          }
+        ],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.4,
+        "conflicts": []
+      },
+      {
+        "block_id": "BLK-f2f07c6e",
+        "section_id": "SEC03",
+        "section_name": "Dadar -> Kurla",
+        "block_type": "Power",
+        "start_time": "2026-09-12T10:00:00",
+        "end_time": "2026-09-12T11:45:00",
+        "duration_min": 108,
+        "departments": [
+          "TRD"
+        ],
+        "assigned_tasks": [
+          "TSK-0035"
+        ],
+        "task_details": [
+          {
+            "task_id": "TSK-0035",
+            "type": "Power Supply Unit Check",
+            "department": "TRD",
+            "duration_min": 73,
+            "priority": 28.3
+          }
+        ],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.4,
+        "conflicts": []
+      },
+      {
+        "block_id": "BLK-ddb22136",
+        "section_id": "SEC04",
+        "section_name": "Kurla -> Thane",
+        "block_type": "Integrated",
+        "start_time": "2026-09-12T10:00:00",
+        "end_time": "2026-09-12T13:30:00",
+        "duration_min": 224,
+        "departments": [
+          "TRD",
+          "S&T",
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "TSK-0032",
+          "TSK-0024",
+          "TSK-0040"
+        ],
+        "task_details": [
+          {
+            "task_id": "TSK-0032",
+            "type": "Sleeper Damage",
+            "department": "ENG",
+            "duration_min": 38,
+            "priority": 57.3
+          },
+          {
+            "task_id": "TSK-0024",
+            "type": "Axle Counter Maintenance",
+            "department": "S&T",
+            "duration_min": 95,
+            "priority": 49.6
+          },
+          {
+            "task_id": "TSK-0040",
+            "type": "Insulator Damage",
+            "department": "TRD",
+            "duration_min": 71,
+            "priority": 63.0
+          }
+        ],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": true,
+        "disruption_score": 0.4,
+        "conflicts": []
+      },
+      {
+        "block_id": "BLK-c2da06e5",
+        "section_id": "SEC02",
+        "section_name": "Byculla -> Dadar",
+        "block_type": "Integrated",
+        "start_time": "2026-09-13T00:00:00",
+        "end_time": "2026-09-13T04:15:00",
+        "duration_min": 265,
+        "departments": [
+          "TRD",
+          "S&T",
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "TSK-0038",
+          "TSK-0026",
+          "TSK-0034"
+        ],
+        "task_details": [
+          {
+            "task_id": "TSK-0038",
+            "type": "Rail Fracture",
+            "department": "ENG",
+            "duration_min": 115,
+            "priority": 95.0
+          },
+          {
+            "task_id": "TSK-0026",
+            "type": "Relay Replacement",
+            "department": "S&T",
+            "duration_min": 60,
+            "priority": 61.4
+          },
+          {
+            "task_id": "TSK-0034",
+            "type": "Power Supply Unit Check",
+            "department": "TRD",
+            "duration_min": 70,
+            "priority": 51.4
+          }
+        ],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": true,
+        "disruption_score": 0.1,
+        "conflicts": []
+      },
+      {
+        "block_id": "BLK-da3ac2a4",
+        "section_id": "SEC01",
+        "section_name": "Mumbai CST -> Byculla",
+        "block_type": "Integrated",
+        "start_time": "2026-09-13T00:00:00",
+        "end_time": "2026-09-13T04:30:00",
+        "duration_min": 271,
+        "departments": [
+          "TRD",
+          "S&T",
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "TSK-0009",
+          "TSK-0043",
+          "TSK-0048"
+        ],
+        "task_details": [
+          {
+            "task_id": "TSK-0009",
+            "type": "Axle Counter Maintenance",
+            "department": "S&T",
+            "duration_min": 65,
+            "priority": 65.8
+          },
+          {
+            "task_id": "TSK-0043",
+            "type": "Power Supply Unit Check",
+            "department": "TRD",
+            "duration_min": 66,
+            "priority": 30.2
+          },
+          {
+            "task_id": "TSK-0048",
+            "type": "Routine Tamping",
+            "department": "ENG",
+            "duration_min": 120,
+            "priority": 29.0
+          }
+        ],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": true,
+        "disruption_score": 0.1,
+        "conflicts": []
+      },
+      {
+        "block_id": "BLK-103252c1",
+        "section_id": "SEC02",
+        "section_name": "Byculla -> Dadar",
+        "block_type": "Integrated",
+        "start_time": "2026-09-13T10:00:00",
+        "end_time": "2026-09-13T14:00:00",
+        "duration_min": 251,
+        "departments": [
+          "TRD",
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "TSK-0018",
+          "TSK-0019"
+        ],
+        "task_details": [
+          {
+            "task_id": "TSK-0018",
+            "type": "Drainage Issue",
+            "department": "ENG",
+            "duration_min": 140,
+            "priority": 45.8
+          },
+          {
+            "task_id": "TSK-0019",
+            "type": "Catenary Wire Wear",
+            "department": "TRD",
+            "duration_min": 91,
+            "priority": 45.4
+          }
+        ],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": true,
+        "disruption_score": 0.4,
+        "conflicts": []
+      },
+      {
+        "block_id": "BLK-8b4d345b",
+        "section_id": "SEC03",
+        "section_name": "Dadar -> Kurla",
+        "block_type": "Integrated",
+        "start_time": "2026-09-14T00:00:00",
+        "end_time": "2026-09-14T04:30:00",
+        "duration_min": 283,
+        "departments": [
+          "TRD",
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "TSK-0005",
+          "TSK-0020"
+        ],
+        "task_details": [
+          {
+            "task_id": "TSK-0005",
+            "type": "Rail Grinding",
+            "department": "ENG",
+            "duration_min": 220,
+            "priority": 52.0
+          },
+          {
+            "task_id": "TSK-0020",
+            "type": "Jumper Wire Replacement",
+            "department": "TRD",
+            "duration_min": 43,
+            "priority": 37.3
+          }
+        ],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": true,
+        "disruption_score": 0.1,
+        "conflicts": []
+      }
+    ],
+    "total_block_hours": 88.2,
+    "total_tasks_scheduled": 50,
+    "integrated_block_count": 16,
+    "conflict_count": 0,
+    "solver_status": "FEASIBLE",
+    "solver_time_seconds": 11.09,
+    "asset_availability_pct": 86.9,
+    "improvement_over_baseline": 1.2
+  },
+  "manual_schedule": {
+    "blocks": [
+      {
+        "block_id": "MAN-e56d16eb",
+        "section_id": "SEC04",
+        "section_name": null,
+        "block_type": "Disconnection",
+        "start_time": "2026-09-10T00:30:00",
+        "end_time": "2026-09-10T01:41:00",
+        "duration_min": 71,
+        "departments": [
+          "S&T"
+        ],
+        "assigned_tasks": [
+          "DEF-0042"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-7222feea",
+        "section_id": "SEC03",
+        "section_name": null,
+        "block_type": "Traffic",
+        "start_time": "2026-09-10T00:30:00",
+        "end_time": "2026-09-10T04:30:00",
+        "duration_min": 240,
+        "departments": [
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "DEF-0005"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-c9baeb55",
+        "section_id": "SEC01",
+        "section_name": null,
+        "block_type": "Disconnection",
+        "start_time": "2026-09-10T00:30:00",
+        "end_time": "2026-09-10T01:29:00",
+        "duration_min": 59,
+        "departments": [
+          "S&T"
+        ],
+        "assigned_tasks": [
+          "DEF-0022"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-212fd383",
+        "section_id": "SEC04",
+        "section_name": null,
+        "block_type": "Traffic",
+        "start_time": "2026-09-10T01:56:00",
+        "end_time": "2026-09-10T04:54:00",
+        "duration_min": 178,
+        "departments": [
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "DEF-0031"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-afec86ff",
+        "section_id": "SEC03",
+        "section_name": null,
+        "block_type": "Disconnection",
+        "start_time": "2026-09-10T04:45:00",
+        "end_time": "2026-09-10T06:51:00",
+        "duration_min": 126,
+        "departments": [
+          "S&T"
+        ],
+        "assigned_tasks": [
+          "DEF-0008"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-3e31e6d5",
+        "section_id": "SEC04",
+        "section_name": null,
+        "block_type": "Power",
+        "start_time": "2026-09-11T00:30:00",
+        "end_time": "2026-09-11T01:59:00",
+        "duration_min": 89,
+        "departments": [
+          "TRD"
+        ],
+        "assigned_tasks": [
+          "DEF-0023"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-63b45e09",
+        "section_id": "SEC01",
+        "section_name": null,
+        "block_type": "Disconnection",
+        "start_time": "2026-09-10T01:44:00",
+        "end_time": "2026-09-10T03:09:00",
+        "duration_min": 85,
+        "departments": [
+          "S&T"
+        ],
+        "assigned_tasks": [
+          "DEF-0009"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-23cd6f16",
+        "section_id": "SEC02",
+        "section_name": null,
+        "block_type": "Traffic",
+        "start_time": "2026-09-10T00:30:00",
+        "end_time": "2026-09-10T01:55:00",
+        "duration_min": 85,
+        "departments": [
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "DEF-0011"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-4c803819",
+        "section_id": "SEC03",
+        "section_name": null,
+        "block_type": "Traffic",
+        "start_time": "2026-09-11T00:30:00",
+        "end_time": "2026-09-11T01:57:00",
+        "duration_min": 87,
+        "departments": [
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "DEF-0029"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-023dcf3a",
+        "section_id": "SEC01",
+        "section_name": null,
+        "block_type": "Power",
+        "start_time": "2026-09-10T03:24:00",
+        "end_time": "2026-09-10T04:59:00",
+        "duration_min": 95,
+        "departments": [
+          "TRD"
+        ],
+        "assigned_tasks": [
+          "DEF-0001"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-547c3fa1",
+        "section_id": "SEC03",
+        "section_name": null,
+        "block_type": "Traffic",
+        "start_time": "2026-09-11T02:12:00",
+        "end_time": "2026-09-11T04:16:00",
+        "duration_min": 124,
+        "departments": [
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "DEF-0025"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-c92275d9",
+        "section_id": "SEC02",
+        "section_name": null,
+        "block_type": "Disconnection",
+        "start_time": "2026-09-10T02:10:00",
+        "end_time": "2026-09-10T03:30:00",
+        "duration_min": 80,
+        "departments": [
+          "S&T"
+        ],
+        "assigned_tasks": [
+          "DEF-0026"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-c5efba88",
+        "section_id": "SEC01",
+        "section_name": null,
+        "block_type": "Disconnection",
+        "start_time": "2026-09-11T00:30:00",
+        "end_time": "2026-09-11T01:27:00",
+        "duration_min": 57,
+        "departments": [
+          "S&T"
+        ],
+        "assigned_tasks": [
+          "DEF-0014"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-fcc37c49",
+        "section_id": "SEC02",
+        "section_name": null,
+        "block_type": "Power",
+        "start_time": "2026-09-10T03:45:00",
+        "end_time": "2026-09-10T05:15:00",
+        "duration_min": 90,
+        "departments": [
+          "TRD"
+        ],
+        "assigned_tasks": [
+          "DEF-0034"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-92057263",
+        "section_id": "SEC03",
+        "section_name": null,
+        "block_type": "Power",
+        "start_time": "2026-09-11T04:31:00",
+        "end_time": "2026-09-11T08:21:00",
+        "duration_min": 230,
+        "departments": [
+          "TRD"
+        ],
+        "assigned_tasks": [
+          "DEF-0010"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-4dd77592",
+        "section_id": "SEC04",
+        "section_name": null,
+        "block_type": "Traffic",
+        "start_time": "2026-09-11T02:14:00",
+        "end_time": "2026-09-11T03:12:00",
+        "duration_min": 58,
+        "departments": [
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "DEF-0032"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-d39bd147",
+        "section_id": "SEC02",
+        "section_name": null,
+        "block_type": "Power",
+        "start_time": "2026-09-11T00:30:00",
+        "end_time": "2026-09-11T01:20:00",
+        "duration_min": 50,
+        "departments": [
+          "TRD"
+        ],
+        "assigned_tasks": [
+          "DEF-0037"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-62abd6a2",
+        "section_id": "SEC02",
+        "section_name": null,
+        "block_type": "Power",
+        "start_time": "2026-09-11T01:35:00",
+        "end_time": "2026-09-11T02:43:00",
+        "duration_min": 68,
+        "departments": [
+          "TRD"
+        ],
+        "assigned_tasks": [
+          "DEF-0016"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-ecfbcba1",
+        "section_id": "SEC03",
+        "section_name": null,
+        "block_type": "Power",
+        "start_time": "2026-09-12T00:30:00",
+        "end_time": "2026-09-12T02:07:00",
+        "duration_min": 97,
+        "departments": [
+          "TRD"
+        ],
+        "assigned_tasks": [
+          "DEF-0027"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-4b4ba2bc",
+        "section_id": "SEC01",
+        "section_name": null,
+        "block_type": "Disconnection",
+        "start_time": "2026-09-11T01:42:00",
+        "end_time": "2026-09-11T02:54:00",
+        "duration_min": 72,
+        "departments": [
+          "S&T"
+        ],
+        "assigned_tasks": [
+          "DEF-0007"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-ca0435c9",
+        "section_id": "SEC01",
+        "section_name": null,
+        "block_type": "Traffic",
+        "start_time": "2026-09-11T03:09:00",
+        "end_time": "2026-09-11T05:44:00",
+        "duration_min": 155,
+        "departments": [
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "DEF-0041"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-d385e511",
+        "section_id": "SEC04",
+        "section_name": null,
+        "block_type": "Disconnection",
+        "start_time": "2026-09-11T03:27:00",
+        "end_time": "2026-09-11T05:22:00",
+        "duration_min": 115,
+        "departments": [
+          "S&T"
+        ],
+        "assigned_tasks": [
+          "DEF-0024"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-5e00311e",
+        "section_id": "SEC02",
+        "section_name": null,
+        "block_type": "Traffic",
+        "start_time": "2026-09-11T02:58:00",
+        "end_time": "2026-09-11T04:44:00",
+        "duration_min": 106,
+        "departments": [
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "DEF-0004"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-a54e8473",
+        "section_id": "SEC03",
+        "section_name": null,
+        "block_type": "Disconnection",
+        "start_time": "2026-09-12T02:22:00",
+        "end_time": "2026-09-12T04:24:00",
+        "duration_min": 122,
+        "departments": [
+          "S&T"
+        ],
+        "assigned_tasks": [
+          "DEF-0013"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-403114f8",
+        "section_id": "SEC02",
+        "section_name": null,
+        "block_type": "Traffic",
+        "start_time": "2026-09-11T04:59:00",
+        "end_time": "2026-09-11T07:39:00",
+        "duration_min": 160,
+        "departments": [
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "DEF-0018"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-5d50101f",
+        "section_id": "SEC03",
+        "section_name": null,
+        "block_type": "Power",
+        "start_time": "2026-09-12T04:39:00",
+        "end_time": "2026-09-12T05:42:00",
+        "duration_min": 63,
+        "departments": [
+          "TRD"
+        ],
+        "assigned_tasks": [
+          "DEF-0020"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-75bbcef1",
+        "section_id": "SEC03",
+        "section_name": null,
+        "block_type": "Traffic",
+        "start_time": "2026-09-13T00:30:00",
+        "end_time": "2026-09-13T01:54:00",
+        "duration_min": 84,
+        "departments": [
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "DEF-0017"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-55998c9d",
+        "section_id": "SEC01",
+        "section_name": null,
+        "block_type": "Traffic",
+        "start_time": "2026-09-12T00:30:00",
+        "end_time": "2026-09-12T01:22:00",
+        "duration_min": 52,
+        "departments": [
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "DEF-0002"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-61bc6cdf",
+        "section_id": "SEC02",
+        "section_name": null,
+        "block_type": "Power",
+        "start_time": "2026-09-12T00:30:00",
+        "end_time": "2026-09-12T02:21:00",
+        "duration_min": 111,
+        "departments": [
+          "TRD"
+        ],
+        "assigned_tasks": [
+          "DEF-0019"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-26edb792",
+        "section_id": "SEC03",
+        "section_name": null,
+        "block_type": "Power",
+        "start_time": "2026-09-13T02:09:00",
+        "end_time": "2026-09-13T03:56:00",
+        "duration_min": 107,
+        "departments": [
+          "TRD"
+        ],
+        "assigned_tasks": [
+          "DEF-0006"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-ac70e81e",
+        "section_id": "SEC03",
+        "section_name": null,
+        "block_type": "Power",
+        "start_time": "2026-09-13T04:11:00",
+        "end_time": "2026-09-13T06:36:00",
+        "duration_min": 145,
+        "departments": [
+          "TRD"
+        ],
+        "assigned_tasks": [
+          "DEF-0021"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-6dc0ab8f",
+        "section_id": "SEC02",
+        "section_name": null,
+        "block_type": "Power",
+        "start_time": "2026-09-12T02:36:00",
+        "end_time": "2026-09-12T03:58:00",
+        "duration_min": 82,
+        "departments": [
+          "TRD"
+        ],
+        "assigned_tasks": [
+          "DEF-0015"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-872f04fa",
+        "section_id": "SEC02",
+        "section_name": null,
+        "block_type": "Traffic",
+        "start_time": "2026-09-12T04:13:00",
+        "end_time": "2026-09-12T06:28:00",
+        "duration_min": 135,
+        "departments": [
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "DEF-0038"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-f7b18f30",
+        "section_id": "SEC01",
+        "section_name": null,
+        "block_type": "Power",
+        "start_time": "2026-09-12T01:37:00",
+        "end_time": "2026-09-12T03:24:00",
+        "duration_min": 107,
+        "departments": [
+          "TRD"
+        ],
+        "assigned_tasks": [
+          "DEF-0003"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-86583d48",
+        "section_id": "SEC02",
+        "section_name": null,
+        "block_type": "Traffic",
+        "start_time": "2026-09-13T00:30:00",
+        "end_time": "2026-09-13T03:51:00",
+        "duration_min": 201,
+        "departments": [
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "DEF-0047"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-f039628b",
+        "section_id": "SEC03",
+        "section_name": null,
+        "block_type": "Power",
+        "start_time": "2026-09-14T00:30:00",
+        "end_time": "2026-09-14T02:03:00",
+        "duration_min": 93,
+        "departments": [
+          "TRD"
+        ],
+        "assigned_tasks": [
+          "DEF-0035"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-b5403617",
+        "section_id": "SEC04",
+        "section_name": null,
+        "block_type": "Power",
+        "start_time": "2026-09-12T00:30:00",
+        "end_time": "2026-09-12T01:53:00",
+        "duration_min": 83,
+        "departments": [
+          "TRD"
+        ],
+        "assigned_tasks": [
+          "DEF-0050"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-01d1b2b7",
+        "section_id": "SEC04",
+        "section_name": null,
+        "block_type": "Disconnection",
+        "start_time": "2026-09-12T02:08:00",
+        "end_time": "2026-09-12T04:24:00",
+        "duration_min": 136,
+        "departments": [
+          "S&T"
+        ],
+        "assigned_tasks": [
+          "DEF-0049"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-9c474313",
+        "section_id": "SEC04",
+        "section_name": null,
+        "block_type": "Traffic",
+        "start_time": "2026-09-12T04:39:00",
+        "end_time": "2026-09-12T07:50:00",
+        "duration_min": 191,
+        "departments": [
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "DEF-0012"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-8292946e",
+        "section_id": "SEC02",
+        "section_name": null,
+        "block_type": "Disconnection",
+        "start_time": "2026-09-13T04:06:00",
+        "end_time": "2026-09-13T06:23:00",
+        "duration_min": 137,
+        "departments": [
+          "S&T"
+        ],
+        "assigned_tasks": [
+          "DEF-0030"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-fe7beac1",
+        "section_id": "SEC02",
+        "section_name": null,
+        "block_type": "Traffic",
+        "start_time": "2026-09-14T00:30:00",
+        "end_time": "2026-09-14T03:53:00",
+        "duration_min": 203,
+        "departments": [
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "DEF-0045"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-82857a36",
+        "section_id": "SEC02",
+        "section_name": null,
+        "block_type": "Disconnection",
+        "start_time": "2026-09-14T04:08:00",
+        "end_time": "2026-09-14T05:11:00",
+        "duration_min": 63,
+        "departments": [
+          "S&T"
+        ],
+        "assigned_tasks": [
+          "DEF-0039"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-95c7c48d",
+        "section_id": "SEC02",
+        "section_name": null,
+        "block_type": "Traffic",
+        "start_time": "2026-09-15T00:30:00",
+        "end_time": "2026-09-15T02:38:00",
+        "duration_min": 128,
+        "departments": [
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "DEF-0028"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-9f891b7a",
+        "section_id": "SEC01",
+        "section_name": null,
+        "block_type": "Traffic",
+        "start_time": "2026-09-12T03:39:00",
+        "end_time": "2026-09-12T05:59:00",
+        "duration_min": 140,
+        "departments": [
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "DEF-0048"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-944c6f55",
+        "section_id": "SEC04",
+        "section_name": null,
+        "block_type": "Power",
+        "start_time": "2026-09-13T00:30:00",
+        "end_time": "2026-09-13T02:01:00",
+        "duration_min": 91,
+        "departments": [
+          "TRD"
+        ],
+        "assigned_tasks": [
+          "DEF-0040"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-a3c1f443",
+        "section_id": "SEC02",
+        "section_name": null,
+        "block_type": "Traffic",
+        "start_time": "2026-09-15T02:53:00",
+        "end_time": "2026-09-15T05:15:00",
+        "duration_min": 142,
+        "departments": [
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "DEF-0036"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-d46f7144",
+        "section_id": "SEC02",
+        "section_name": null,
+        "block_type": "Traffic",
+        "start_time": "2026-09-16T00:30:00",
+        "end_time": "2026-09-16T03:47:00",
+        "duration_min": 197,
+        "departments": [
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "DEF-0044"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-9b6a4818",
+        "section_id": "SEC01",
+        "section_name": null,
+        "block_type": "Power",
+        "start_time": "2026-09-13T00:30:00",
+        "end_time": "2026-09-13T01:56:00",
+        "duration_min": 86,
+        "departments": [
+          "TRD"
+        ],
+        "assigned_tasks": [
+          "DEF-0043"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-04a6685e",
+        "section_id": "SEC04",
+        "section_name": null,
+        "block_type": "Power",
+        "start_time": "2026-09-13T02:16:00",
+        "end_time": "2026-09-13T03:30:00",
+        "duration_min": 74,
+        "departments": [
+          "TRD"
+        ],
+        "assigned_tasks": [
+          "DEF-0033"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      },
+      {
+        "block_id": "MAN-181d58db",
+        "section_id": "SEC01",
+        "section_name": null,
+        "block_type": "Traffic",
+        "start_time": "2026-09-13T02:11:00",
+        "end_time": "2026-09-13T05:34:00",
+        "duration_min": 203,
+        "departments": [
+          "ENG"
+        ],
+        "assigned_tasks": [
+          "DEF-0046"
+        ],
+        "task_details": [],
+        "status": "Proposed",
+        "approved_by": null,
+        "approved_at": null,
+        "rejection_reason": null,
+        "is_integrated": false,
+        "disruption_score": 0.3,
+        "conflicts": []
+      }
+    ],
+    "total_block_hours": 95.9,
+    "total_tasks_scheduled": 50,
+    "integrated_block_count": 0,
+    "conflict_count": 0,
+    "asset_availability_pct": 85.7
+  },
+  "approvals_pending": [
+    {
+      "block_id": "BLK-bbde231e",
+      "section_id": "SEC02",
+      "section_name": "Byculla -> Dadar",
+      "block_type": "Traffic",
+      "start_time": "2026-09-10T00:00:00",
+      "end_time": "2026-09-10T03:15:00",
+      "duration_min": 197,
+      "departments": [
+        "ENG"
+      ],
+      "assigned_tasks": [
+        "TSK-0044"
+      ],
+      "task_details": [
+        {
+          "task_id": "TSK-0044",
+          "type": "Ballast Deficiency",
+          "department": "ENG",
+          "duration_min": 177,
+          "priority": 39.0
+        }
+      ],
+      "status": "Proposed",
+      "approved_by": null,
+      "approved_at": null,
+      "rejection_reason": null,
+      "is_integrated": false,
+      "disruption_score": 0.1,
+      "conflicts": []
+    },
+    {
+      "block_id": "BLK-87218e6a",
+      "section_id": "SEC03",
+      "section_name": "Dadar -> Kurla",
+      "block_type": "Integrated",
+      "start_time": "2026-09-10T00:00:00",
+      "end_time": "2026-09-10T04:30:00",
+      "duration_min": 280,
+      "departments": [
+        "TRD",
+        "S&T",
+        "ENG"
+      ],
+      "assigned_tasks": [
+        "TSK-0029",
+        "TSK-0008",
+        "TSK-0006"
+      ],
+      "task_details": [
+        {
+          "task_id": "TSK-0029",
+          "type": "Rail Fracture",
+          "department": "ENG",
+          "duration_min": 67,
+          "priority": 95.0
+        },
+        {
+          "task_id": "TSK-0008",
+          "type": "Axle Counter Maintenance",
+          "department": "S&T",
+          "duration_min": 106,
+          "priority": 60.8
+        },
+        {
+          "task_id": "TSK-0006",
+          "type": "Catenary Wire Wear",
+          "department": "TRD",
+          "duration_min": 87,
+          "priority": 40.4
+        }
+      ],
+      "status": "Proposed",
+      "approved_by": null,
+      "approved_at": null,
+      "rejection_reason": null,
+      "is_integrated": true,
+      "disruption_score": 0.1,
+      "conflicts": []
+    },
+    {
+      "block_id": "BLK-4d461fb8",
+      "section_id": "SEC01",
+      "section_name": "Mumbai CST -> Byculla",
+      "block_type": "Integrated",
+      "start_time": "2026-09-10T00:00:00",
+      "end_time": "2026-09-10T04:15:00",
+      "duration_min": 269,
+      "departments": [
+        "TRD",
+        "S&T",
+        "ENG"
+      ],
+      "assigned_tasks": [
+        "TSK-0022",
+        "TSK-0001",
+        "TSK-0041"
+      ],
+      "task_details": [
+        {
+          "task_id": "TSK-0022",
+          "type": "Signal Cable Fault",
+          "department": "S&T",
+          "duration_min": 39,
+          "priority": 93.0
+        },
+        {
+          "task_id": "TSK-0001",
+          "type": "OHE Wire Sag",
+          "department": "TRD",
+          "duration_min": 75,
+          "priority": 90.0
+        },
+        {
+          "task_id": "TSK-0041",
+          "type": "Weld Failure",
+          "department": "ENG",
+          "duration_min": 135,
+          "priority": 90.0
+        }
+      ],
+      "status": "Proposed",
+      "approved_by": null,
+      "approved_at": null,
+      "rejection_reason": null,
+      "is_integrated": true,
+      "disruption_score": 0.1,
+      "conflicts": []
+    },
+    {
+      "block_id": "BLK-e94cc6c1",
+      "section_id": "SEC04",
+      "section_name": "Kurla -> Thane",
+      "block_type": "Integrated",
+      "start_time": "2026-09-10T00:00:00",
+      "end_time": "2026-09-10T05:00:00",
+      "duration_min": 307,
+      "departments": [
+        "S&T",
+        "ENG"
+      ],
+      "assigned_tasks": [
+        "TSK-0012",
+        "TSK-0049"
+      ],
+      "task_details": [
+        {
+          "task_id": "TSK-0012",
+          "type": "Weld Failure",
+          "department": "ENG",
+          "duration_min": 171,
+          "priority": 90.0
+        },
+        {
+          "task_id": "TSK-0049",
+          "type": "Track Circuit Fault",
+          "department": "S&T",
+          "duration_min": 116,
+          "priority": 90.0
+        }
+      ],
+      "status": "Proposed",
+      "approved_by": null,
+      "approved_at": null,
+      "rejection_reason": null,
+      "is_integrated": true,
+      "disruption_score": 0.1,
+      "conflicts": []
+    },
+    {
+      "block_id": "BLK-35bb3dd5",
+      "section_id": "SEC02",
+      "section_name": "Byculla -> Dadar",
+      "block_type": "Traffic",
+      "start_time": "2026-09-10T10:00:00",
+      "end_time": "2026-09-10T13:15:00",
+      "duration_min": 201,
+      "departments": [
+        "ENG"
+      ],
+      "assigned_tasks": [
+        "TSK-0047"
+      ],
+      "task_details": [
+        {
+          "task_id": "TSK-0047",
+          "type": "Ballast Deficiency",
+          "department": "ENG",
+          "duration_min": 181,
+          "priority": 42.0
+        }
+      ],
+      "status": "Proposed",
+      "approved_by": null,
+      "approved_at": null,
+      "rejection_reason": null,
+      "is_integrated": false,
+      "disruption_score": 0.4,
+      "conflicts": []
+    },
+    {
+      "block_id": "BLK-4dc0ca56",
+      "section_id": "SEC03",
+      "section_name": "Dadar -> Kurla",
+      "block_type": "Integrated",
+      "start_time": "2026-09-10T10:00:00",
+      "end_time": "2026-09-10T14:00:00",
+      "duration_min": 249,
+      "departments": [
+        "TRD",
+        "ENG"
+      ],
+      "assigned_tasks": [
+        "TSK-0025",
+        "TSK-0021"
+      ],
+      "task_details": [
+        {
+          "task_id": "TSK-0025",
+          "type": "Weld Failure",
+          "department": "ENG",
+          "duration_min": 104,
+          "priority": 90.0
+        },
+        {
+          "task_id": "TSK-0021",
+          "type": "Catenary Wire Wear",
+          "department": "TRD",
+          "duration_min": 125,
+          "priority": 37.9
+        }
+      ],
+      "status": "Proposed",
+      "approved_by": null,
+      "approved_at": null,
+      "rejection_reason": null,
+      "is_integrated": true,
+      "disruption_score": 0.4,
+      "conflicts": []
+    },
+    {
+      "block_id": "BLK-1ec06e16",
+      "section_id": "SEC01",
+      "section_name": "Mumbai CST -> Byculla",
+      "block_type": "Integrated",
+      "start_time": "2026-09-10T10:00:00",
+      "end_time": "2026-09-10T13:00:00",
+      "duration_min": 191,
+      "departments": [
+        "TRD",
+        "S&T",
+        "ENG"
+      ],
+      "assigned_tasks": [
+        "TSK-0007",
+        "TSK-0003",
+        "TSK-0002"
+      ],
+      "task_details": [
+        {
+          "task_id": "TSK-0007",
+          "type": "Signal Cable Fault",
+          "department": "S&T",
+          "duration_min": 52,
+          "priority": 83.4
+        },
+        {
+          "task_id": "TSK-0003",
+          "type": "Catenary Wire Wear",
+          "department": "TRD",
+          "duration_min": 87,
+          "priority": 42.0
+        },
+        {
+          "task_id": "TSK-0002",
+          "type": "Sleeper Damage",
+          "department": "ENG",
+          "duration_min": 32,
+          "priority": 48.9
+        }
+      ],
+      "status": "Proposed",
+      "approved_by": null,
+      "approved_at": null,
+      "rejection_reason": null,
+      "is_integrated": true,
+      "disruption_score": 0.4,
+      "conflicts": []
+    },
+    {
+      "block_id": "BLK-9c7ed57c",
+      "section_id": "SEC02",
+      "section_name": "Byculla -> Dadar",
+      "block_type": "Integrated",
+      "start_time": "2026-09-11T00:00:00",
+      "end_time": "2026-09-11T02:30:00",
+      "duration_min": 158,
+      "departments": [
+        "TRD",
+        "S&T",
+        "ENG"
+      ],
+      "assigned_tasks": [
+        "TSK-0011",
+        "TSK-0039",
+        "TSK-0037"
+      ],
+      "task_details": [
+        {
+          "task_id": "TSK-0011",
+          "type": "Rail Fracture",
+          "department": "ENG",
+          "duration_min": 65,
+          "priority": 95.0
+        },
+        {
+          "task_id": "TSK-0039",
+          "type": "Signal Cable Fault",
+          "department": "S&T",
+          "duration_min": 43,
+          "priority": 68.5
+        },
+        {
+          "task_id": "TSK-0037",
+          "type": "Jumper Wire Replacement",
+          "department": "TRD",
+          "duration_min": 30,
+          "priority": 52.1
+        }
+      ],
+      "status": "Proposed",
+      "approved_by": null,
+      "approved_at": null,
+      "rejection_reason": null,
+      "is_integrated": true,
+      "disruption_score": 0.1,
+      "conflicts": []
+    },
+    {
+      "block_id": "BLK-27b6858b",
+      "section_id": "SEC03",
+      "section_name": "Dadar -> Kurla",
+      "block_type": "Integrated",
+      "start_time": "2026-09-11T00:00:00",
+      "end_time": "2026-09-11T04:15:00",
+      "duration_min": 263,
+      "departments": [
+        "TRD",
+        "S&T",
+        "ENG"
+      ],
+      "assigned_tasks": [
+        "TSK-0017",
+        "TSK-0013",
+        "TSK-0027"
+      ],
+      "task_details": [
+        {
+          "task_id": "TSK-0017",
+          "type": "Rail Fracture",
+          "department": "ENG",
+          "duration_min": 64,
+          "priority": 95.0
+        },
+        {
+          "task_id": "TSK-0013",
+          "type": "Point Machine Failure",
+          "department": "S&T",
+          "duration_min": 102,
+          "priority": 92.0
+        },
+        {
+          "task_id": "TSK-0027",
+          "type": "Power Supply Unit Check",
+          "department": "TRD",
+          "duration_min": 77,
+          "priority": 43.6
+        }
+      ],
+      "status": "Proposed",
+      "approved_by": null,
+      "approved_at": null,
+      "rejection_reason": null,
+      "is_integrated": true,
+      "disruption_score": 0.1,
+      "conflicts": []
+    },
+    {
+      "block_id": "BLK-1de220b4",
+      "section_id": "SEC01",
+      "section_name": "Mumbai CST -> Byculla",
+      "block_type": "Integrated",
+      "start_time": "2026-09-11T00:00:00",
+      "end_time": "2026-09-11T04:00:00",
+      "duration_min": 240,
+      "departments": [
+        "S&T",
+        "ENG"
+      ],
+      "assigned_tasks": [
+        "TSK-0014",
+        "TSK-0046"
+      ],
+      "task_details": [
+        {
+          "task_id": "TSK-0014",
+          "type": "LED Signal Replacement",
+          "department": "S&T",
+          "duration_min": 37,
+          "priority": 57.9
+        },
+        {
+          "task_id": "TSK-0046",
+          "type": "Rail Grinding",
+          "department": "ENG",
+          "duration_min": 183,
+          "priority": 32.0
+        }
+      ],
+      "status": "Proposed",
+      "approved_by": null,
+      "approved_at": null,
+      "rejection_reason": null,
+      "is_integrated": true,
+      "disruption_score": 0.1,
+      "conflicts": []
+    },
+    {
+      "block_id": "BLK-94e6de9d",
+      "section_id": "SEC02",
+      "section_name": "Byculla -> Dadar",
+      "block_type": "Traffic",
+      "start_time": "2026-09-11T02:30:00",
+      "end_time": "2026-09-11T04:45:00",
+      "duration_min": 142,
+      "departments": [
+        "ENG"
+      ],
+      "assigned_tasks": [
+        "TSK-0036"
+      ],
+      "task_details": [
+        {
+          "task_id": "TSK-0036",
+          "type": "Ballast Deficiency",
+          "department": "ENG",
+          "duration_min": 122,
+          "priority": 39.0
+        }
+      ],
+      "status": "Proposed",
+      "approved_by": null,
+      "approved_at": null,
+      "rejection_reason": null,
+      "is_integrated": false,
+      "disruption_score": 0.1,
+      "conflicts": []
+    },
+    {
+      "block_id": "BLK-b9588e6b",
+      "section_id": "SEC04",
+      "section_name": "Kurla -> Thane",
+      "block_type": "Power",
+      "start_time": "2026-09-11T02:30:00",
+      "end_time": "2026-09-11T04:00:00",
+      "duration_min": 98,
+      "departments": [
+        "TRD"
+      ],
+      "assigned_tasks": [
+        "TSK-0050"
+      ],
+      "task_details": [
+        {
+          "task_id": "TSK-0050",
+          "type": "Power Supply Unit Check",
+          "department": "TRD",
+          "duration_min": 63,
+          "priority": 28.3
+        }
+      ],
+      "status": "Proposed",
+      "approved_by": null,
+      "approved_at": null,
+      "rejection_reason": null,
+      "is_integrated": false,
+      "disruption_score": 0.1,
+      "conflicts": []
+    },
+    {
+      "block_id": "BLK-d0b9f9b1",
+      "section_id": "SEC02",
+      "section_name": "Byculla -> Dadar",
+      "block_type": "Integrated",
+      "start_time": "2026-09-11T10:00:00",
+      "end_time": "2026-09-11T12:45:00",
+      "duration_min": 176,
+      "departments": [
+        "TRD",
+        "ENG"
+      ],
+      "assigned_tasks": [
+        "TSK-0028",
+        "TSK-0016"
+      ],
+      "task_details": [
+        {
+          "task_id": "TSK-0028",
+          "type": "Track Geometry Defect",
+          "department": "ENG",
+          "duration_min": 108,
+          "priority": 65.0
+        },
+        {
+          "task_id": "TSK-0016",
+          "type": "Power Supply Unit Check",
+          "department": "TRD",
+          "duration_min": 48,
+          "priority": 48.6
+        }
+      ],
+      "status": "Proposed",
+      "approved_by": null,
+      "approved_at": null,
+      "rejection_reason": null,
+      "is_integrated": true,
+      "disruption_score": 0.4,
+      "conflicts": []
+    },
+    {
+      "block_id": "BLK-93ed93f9",
+      "section_id": "SEC03",
+      "section_name": "Dadar -> Kurla",
+      "block_type": "Power",
+      "start_time": "2026-09-11T10:00:00",
+      "end_time": "2026-09-11T14:00:00",
+      "duration_min": 245,
+      "departments": [
+        "TRD"
+      ],
+      "assigned_tasks": [
+        "TSK-0010"
+      ],
+      "task_details": [
+        {
+          "task_id": "TSK-0010",
+          "type": "Mast Foundation Crack",
+          "department": "TRD",
+          "duration_min": 210,
+          "priority": 88.0
+        }
+      ],
+      "status": "Proposed",
+      "approved_by": null,
+      "approved_at": null,
+      "rejection_reason": null,
+      "is_integrated": false,
+      "disruption_score": 0.4,
+      "conflicts": []
+    },
+    {
+      "block_id": "BLK-65a87588",
+      "section_id": "SEC04",
+      "section_name": "Kurla -> Thane",
+      "block_type": "Power",
+      "start_time": "2026-09-11T12:45:00",
+      "end_time": "2026-09-11T14:00:00",
+      "duration_min": 89,
+      "departments": [
+        "TRD"
+      ],
+      "assigned_tasks": [
+        "TSK-0033"
+      ],
+      "task_details": [
+        {
+          "task_id": "TSK-0033",
+          "type": "Jumper Wire Replacement",
+          "department": "TRD",
+          "duration_min": 54,
+          "priority": 28.8
+        }
+      ],
+      "status": "Proposed",
+      "approved_by": null,
+      "approved_at": null,
+      "rejection_reason": null,
+      "is_integrated": false,
+      "disruption_score": 0.4,
+      "conflicts": []
+    },
+    {
+      "block_id": "BLK-a8932594",
+      "section_id": "SEC02",
+      "section_name": "Byculla -> Dadar",
+      "block_type": "Integrated",
+      "start_time": "2026-09-12T00:00:00",
+      "end_time": "2026-09-12T04:45:00",
+      "duration_min": 285,
+      "departments": [
+        "TRD",
+        "S&T",
+        "ENG"
+      ],
+      "assigned_tasks": [
+        "TSK-0004",
+        "TSK-0030",
+        "TSK-0015"
+      ],
+      "task_details": [
+        {
+          "task_id": "TSK-0004",
+          "type": "Rail Fracture",
+          "department": "ENG",
+          "duration_min": 86,
+          "priority": 95.0
+        },
+        {
+          "task_id": "TSK-0030",
+          "type": "Track Circuit Fault",
+          "department": "S&T",
+          "duration_min": 117,
+          "priority": 90.0
+        },
+        {
+          "task_id": "TSK-0015",
+          "type": "Insulator Damage",
+          "department": "TRD",
+          "duration_min": 62,
+          "priority": 73.0
+        }
+      ],
+      "status": "Proposed",
+      "approved_by": null,
+      "approved_at": null,
+      "rejection_reason": null,
+      "is_integrated": true,
+      "disruption_score": 0.1,
+      "conflicts": []
+    },
+    {
+      "block_id": "BLK-84c4add6",
+      "section_id": "SEC04",
+      "section_name": "Kurla -> Thane",
+      "block_type": "Integrated",
+      "start_time": "2026-09-12T00:00:00",
+      "end_time": "2026-09-12T04:45:00",
+      "duration_min": 298,
+      "departments": [
+        "TRD",
+        "S&T",
+        "ENG"
+      ],
+      "assigned_tasks": [
+        "TSK-0031",
+        "TSK-0042",
+        "TSK-0023"
+      ],
+      "task_details": [
+        {
+          "task_id": "TSK-0031",
+          "type": "Weld Failure",
+          "department": "ENG",
+          "duration_min": 158,
+          "priority": 90.0
+        },
+        {
+          "task_id": "TSK-0042",
+          "type": "Relay Replacement",
+          "department": "S&T",
+          "duration_min": 51,
+          "priority": 59.0
+        },
+        {
+          "task_id": "TSK-0023",
+          "type": "Insulator Damage",
+          "department": "TRD",
+          "duration_min": 69,
+          "priority": 88.0
+        }
+      ],
+      "status": "Proposed",
+      "approved_by": null,
+      "approved_at": null,
+      "rejection_reason": null,
+      "is_integrated": true,
+      "disruption_score": 0.1,
+      "conflicts": []
+    },
+    {
+      "block_id": "BLK-90cbd196",
+      "section_id": "SEC02",
+      "section_name": "Byculla -> Dadar",
+      "block_type": "Traffic",
+      "start_time": "2026-09-12T10:00:00",
+      "end_time": "2026-09-12T13:15:00",
+      "duration_min": 203,
+      "departments": [
+        "ENG"
+      ],
+      "assigned_tasks": [
+        "TSK-0045"
+      ],
+      "task_details": [
+        {
+          "task_id": "TSK-0045",
+          "type": "Routine Tamping",
+          "department": "ENG",
+          "duration_min": 183,
+          "priority": 29.5
+        }
+      ],
+      "status": "Proposed",
+      "approved_by": null,
+      "approved_at": null,
+      "rejection_reason": null,
+      "is_integrated": false,
+      "disruption_score": 0.4,
+      "conflicts": []
+    },
+    {
+      "block_id": "BLK-f2f07c6e",
+      "section_id": "SEC03",
+      "section_name": "Dadar -> Kurla",
+      "block_type": "Power",
+      "start_time": "2026-09-12T10:00:00",
+      "end_time": "2026-09-12T11:45:00",
+      "duration_min": 108,
+      "departments": [
+        "TRD"
+      ],
+      "assigned_tasks": [
+        "TSK-0035"
+      ],
+      "task_details": [
+        {
+          "task_id": "TSK-0035",
+          "type": "Power Supply Unit Check",
+          "department": "TRD",
+          "duration_min": 73,
+          "priority": 28.3
+        }
+      ],
+      "status": "Proposed",
+      "approved_by": null,
+      "approved_at": null,
+      "rejection_reason": null,
+      "is_integrated": false,
+      "disruption_score": 0.4,
+      "conflicts": []
+    },
+    {
+      "block_id": "BLK-ddb22136",
+      "section_id": "SEC04",
+      "section_name": "Kurla -> Thane",
+      "block_type": "Integrated",
+      "start_time": "2026-09-12T10:00:00",
+      "end_time": "2026-09-12T13:30:00",
+      "duration_min": 224,
+      "departments": [
+        "TRD",
+        "S&T",
+        "ENG"
+      ],
+      "assigned_tasks": [
+        "TSK-0032",
+        "TSK-0024",
+        "TSK-0040"
+      ],
+      "task_details": [
+        {
+          "task_id": "TSK-0032",
+          "type": "Sleeper Damage",
+          "department": "ENG",
+          "duration_min": 38,
+          "priority": 57.3
+        },
+        {
+          "task_id": "TSK-0024",
+          "type": "Axle Counter Maintenance",
+          "department": "S&T",
+          "duration_min": 95,
+          "priority": 49.6
+        },
+        {
+          "task_id": "TSK-0040",
+          "type": "Insulator Damage",
+          "department": "TRD",
+          "duration_min": 71,
+          "priority": 63.0
+        }
+      ],
+      "status": "Proposed",
+      "approved_by": null,
+      "approved_at": null,
+      "rejection_reason": null,
+      "is_integrated": true,
+      "disruption_score": 0.4,
+      "conflicts": []
+    },
+    {
+      "block_id": "BLK-c2da06e5",
+      "section_id": "SEC02",
+      "section_name": "Byculla -> Dadar",
+      "block_type": "Integrated",
+      "start_time": "2026-09-13T00:00:00",
+      "end_time": "2026-09-13T04:15:00",
+      "duration_min": 265,
+      "departments": [
+        "TRD",
+        "S&T",
+        "ENG"
+      ],
+      "assigned_tasks": [
+        "TSK-0038",
+        "TSK-0026",
+        "TSK-0034"
+      ],
+      "task_details": [
+        {
+          "task_id": "TSK-0038",
+          "type": "Rail Fracture",
+          "department": "ENG",
+          "duration_min": 115,
+          "priority": 95.0
+        },
+        {
+          "task_id": "TSK-0026",
+          "type": "Relay Replacement",
+          "department": "S&T",
+          "duration_min": 60,
+          "priority": 61.4
+        },
+        {
+          "task_id": "TSK-0034",
+          "type": "Power Supply Unit Check",
+          "department": "TRD",
+          "duration_min": 70,
+          "priority": 51.4
+        }
+      ],
+      "status": "Proposed",
+      "approved_by": null,
+      "approved_at": null,
+      "rejection_reason": null,
+      "is_integrated": true,
+      "disruption_score": 0.1,
+      "conflicts": []
+    },
+    {
+      "block_id": "BLK-da3ac2a4",
+      "section_id": "SEC01",
+      "section_name": "Mumbai CST -> Byculla",
+      "block_type": "Integrated",
+      "start_time": "2026-09-13T00:00:00",
+      "end_time": "2026-09-13T04:30:00",
+      "duration_min": 271,
+      "departments": [
+        "TRD",
+        "S&T",
+        "ENG"
+      ],
+      "assigned_tasks": [
+        "TSK-0009",
+        "TSK-0043",
+        "TSK-0048"
+      ],
+      "task_details": [
+        {
+          "task_id": "TSK-0009",
+          "type": "Axle Counter Maintenance",
+          "department": "S&T",
+          "duration_min": 65,
+          "priority": 65.8
+        },
+        {
+          "task_id": "TSK-0043",
+          "type": "Power Supply Unit Check",
+          "department": "TRD",
+          "duration_min": 66,
+          "priority": 30.2
+        },
+        {
+          "task_id": "TSK-0048",
+          "type": "Routine Tamping",
+          "department": "ENG",
+          "duration_min": 120,
+          "priority": 29.0
+        }
+      ],
+      "status": "Proposed",
+      "approved_by": null,
+      "approved_at": null,
+      "rejection_reason": null,
+      "is_integrated": true,
+      "disruption_score": 0.1,
+      "conflicts": []
+    },
+    {
+      "block_id": "BLK-103252c1",
+      "section_id": "SEC02",
+      "section_name": "Byculla -> Dadar",
+      "block_type": "Integrated",
+      "start_time": "2026-09-13T10:00:00",
+      "end_time": "2026-09-13T14:00:00",
+      "duration_min": 251,
+      "departments": [
+        "TRD",
+        "ENG"
+      ],
+      "assigned_tasks": [
+        "TSK-0018",
+        "TSK-0019"
+      ],
+      "task_details": [
+        {
+          "task_id": "TSK-0018",
+          "type": "Drainage Issue",
+          "department": "ENG",
+          "duration_min": 140,
+          "priority": 45.8
+        },
+        {
+          "task_id": "TSK-0019",
+          "type": "Catenary Wire Wear",
+          "department": "TRD",
+          "duration_min": 91,
+          "priority": 45.4
+        }
+      ],
+      "status": "Proposed",
+      "approved_by": null,
+      "approved_at": null,
+      "rejection_reason": null,
+      "is_integrated": true,
+      "disruption_score": 0.4,
+      "conflicts": []
+    },
+    {
+      "block_id": "BLK-8b4d345b",
+      "section_id": "SEC03",
+      "section_name": "Dadar -> Kurla",
+      "block_type": "Integrated",
+      "start_time": "2026-09-14T00:00:00",
+      "end_time": "2026-09-14T04:30:00",
+      "duration_min": 283,
+      "departments": [
+        "TRD",
+        "ENG"
+      ],
+      "assigned_tasks": [
+        "TSK-0005",
+        "TSK-0020"
+      ],
+      "task_details": [
+        {
+          "task_id": "TSK-0005",
+          "type": "Rail Grinding",
+          "department": "ENG",
+          "duration_min": 220,
+          "priority": 52.0
+        },
+        {
+          "task_id": "TSK-0020",
+          "type": "Jumper Wire Replacement",
+          "department": "TRD",
+          "duration_min": 43,
+          "priority": 37.3
+        }
+      ],
+      "status": "Proposed",
+      "approved_by": null,
+      "approved_at": null,
+      "rejection_reason": null,
+      "is_integrated": true,
+      "disruption_score": 0.1,
+      "conflicts": []
+    }
+  ],
+  "approvals_history": [],
+  "trains_summary": {
+    "total_movements": 7516,
+    "by_type": {
+      "Mail/Express": 336,
+      "Rajdhani": 56,
+      "Shatabdi": 56,
+      "Suburban": 6928,
+      "Freight": 140
+    },
+    "sections": 4,
+    "daily_avg": 1073
+  }
+}
