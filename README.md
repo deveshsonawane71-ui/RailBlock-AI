@@ -138,7 +138,7 @@ The backend will:
 4. Generate a train timetable (~7500 movements/week)
 5. Create a manual baseline schedule for comparison
 
-API docs available at: http://localhost:8000/docs
+API docs available at: https://railblock-ai-backend.onrender.com/docs (or http://localhost:8000/docs when running locally)
 
 ### Manual Frontend Setup
 
