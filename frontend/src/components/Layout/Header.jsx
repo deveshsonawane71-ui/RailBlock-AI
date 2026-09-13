@@ -1,4 +1,5 @@
 import { Bell, Settings } from 'lucide-react';
+import { ConnectionBadge } from '../ConnectionBadge';
 
 export default function Header({ title, badge }) {
   return (
@@ -8,6 +9,7 @@ export default function Header({ title, badge }) {
         {badge && <span className={`page-badge ${badge.className || 'badge-live'}`}>{badge.text}</span>}
       </div>
       <div className="header-right">
+        <ConnectionBadge />
         <div style={{ fontSize: 12, color: 'var(--text-muted)', fontFamily: 'var(--font-mono)' }}>
           {new Date().toLocaleDateString('en-IN', { weekday: 'short', day: 'numeric', month: 'short', year: 'numeric' })}
         </div>

@@ -12,6 +12,35 @@ const BACKEND_HOST = RAW_BASE
   : (import.meta.env.DEV ? '' : 'https://railblock-ai-backend.onrender.com');
 const API_BASE = BACKEND_HOST ? `${BACKEND_HOST}/api` : '/api';
 
+// ── Connection status tracking ──
+let connectionStatus = 'checking'; // 'checking' | 'live' | 'offline'
+const statusListeners = new Set();
+
+function setConnectionStatus(status) {
+  if (connectionStatus !== status) {
+    connectionStatus = status;
+    statusListeners.forEach((cb) => cb(status));
+  }
+}
+
+export function onConnectionStatusChange(callback) {
+  statusListeners.add(callback);
+  callback(connectionStatus);
+  return () => statusListeners.delete(callback);
+}
+
+export function getConnectionStatus() {
+  return connectionStatus;
+}
+
+// Fire-and-forget warm-up: wake a sleeping Render instance on page
+// load instead of waiting for the first feature click to discover it.
+if (typeof window !== 'undefined' && BACKEND_HOST) {
+  fetch(`${API_BASE}/kpis`)
+    .then((res) => setConnectionStatus(res.ok ? 'live' : 'offline'))
+    .catch(() => setConnectionStatus('offline'));
+}
+
 // In-memory working copy for interactive simulation when offline
 let localState = JSON.parse(JSON.stringify(initialData));
 
@@ -91,9 +120,11 @@ async function request(endpoint, options = {}) {
     if (!response.ok) {
       throw new Error(`HTTP ${response.status}`);
     }
+    setConnectionStatus('live');
     return await response.json();
   } catch (err) {
     console.warn(`[RailBlock AI] Live API (${endpoint}) not reachable, using local snapshot data.`, err.message);
+    setConnectionStatus('offline');
     return getFallbackData(endpoint, options);
   }
 }
