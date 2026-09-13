@@ -54,7 +54,7 @@ export default function DashboardPage() {
 
   return (
     <>
-      <Header title="Dashboard" badge={{ text: 'Live', className: 'badge-live' }} />
+      <Header title="Dashboard" />
       <div className="page-content">
         {/* KPI Cards */}
         <div className="kpi-grid">
