@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Header from '../components/Layout/Header';
-import { api } from '../api/client';
+import { api, getInstantFallback } from '../api/client';
 import {
   TrendingUp, TrendingDown, Activity, Clock,
   Layers, AlertTriangle, Timer, BarChart3,
@@ -17,32 +17,27 @@ const KPI_CONFIG = [
 ];
 
 export default function DashboardPage() {
-  const [kpis, setKpis] = useState(null);
-  const [corridor, setCorridor] = useState(null);
-  const [defects, setDefects] = useState([]);
-  const [comparison, setComparison] = useState([]);
-  const [loading, setLoading] = useState(true);
+  // ── Instant render: initialize from fallback data (synchronous, ~0ms) ──
+  // The UI paints immediately with snapshot data. Live data replaces it
+  // transparently once the backend responds.
+  const [kpis, setKpis] = useState(() => getInstantFallback('/kpis'));
+  const [corridor, setCorridor] = useState(() => getInstantFallback('/corridor'));
+  const [defects, setDefects] = useState(() => getInstantFallback('/defects') || []);
+  const [comparison, setComparison] = useState(() => getInstantFallback('/kpis/comparison') || []);
+  const upgradeAttempted = useRef(false);
 
   useEffect(() => {
-    async function load() {
-      try {
-        const [kpiData, corridorData, defectData, compData] = await Promise.all([
-          api.getKPIs(),
-          api.getCorridor(),
-          api.getDefects(),
-          api.getComparisonKPIs().catch(() => []),
-        ]);
-        setKpis(kpiData);
-        setCorridor(corridorData);
-        setDefects(defectData);
-        setComparison(compData);
-      } catch (err) {
-        console.error('Failed to load dashboard:', err);
-      } finally {
-        setLoading(false);
-      }
-    }
-    load();
+    // Only attempt background upgrade once per mount
+    if (upgradeAttempted.current) return;
+    upgradeAttempted.current = true;
+
+    // Fire all API requests in parallel — when they resolve, silently
+    // replace snapshot data with live data. If they fail, the already-
+    // rendered fallback data stays in place.
+    api.getKPIs().then(setKpis).catch(() => {});
+    api.getCorridor().then(setCorridor).catch(() => {});
+    api.getDefects().then(setDefects).catch(() => {});
+    api.getComparisonKPIs().then(setComparison).catch(() => {});
   }, []);
 
   // Count defects by department
